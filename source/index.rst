@@ -12,6 +12,12 @@ Upala documentation
 
 Upala is a digital identity system. 
 
+Links:
+======
+- `Blog <https://medium.com/six-degrees-of-separation/>`_
+- `Twitter <https://twitter.com/TheUpala/>`_
+- `Telegram <https://t.me/upala_cherish_the_difference/>`_
+
 
 Contents:
 
