@@ -39,13 +39,24 @@
             
   <div class="section" id="light-paper">
 <h1>LIGHT PAPER<a class="headerlink" href="#light-paper" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="main-features">
-<h2>Main features<a class="headerlink" href="#main-features" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="about-this-document">
+<h2>About this document<a class="headerlink" href="#about-this-document" title="Permalink to this headline">¶</a></h2>
+<p>This document is under development. It originates from the series of blogposts and discussions <a class="reference external" href="https://airtable.com/shrNQ0VClgqBiHmkL/">listed here</a>. Everyone is welcome to join. The document is meant to be short and easy to understand, with no technical details.</p>
+</div>
+<div class="section" id="upala-main-features">
+<h2>Upala main features<a class="headerlink" href="#upala-main-features" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Proof of uniqueness</li>
-<li>Data on demand</li>
-<li>No password</li>
+<li>Proof of uniqueness. One person — one ID.</li>
+<li>Disclosure on demand. Decide which pieces of information to share.</li>
+<li>Friends recover each other&#8217;s accounts.</li>
 </ul>
+</div>
+<div class="section" id="main-challenges">
+<h2>Main challenges<a class="headerlink" href="#main-challenges" title="Permalink to this headline">¶</a></h2>
+<p><strong>Sybil attack</strong>. How to prevent a malicious actor from creating multiple accounts?</p>
+<p><strong>Account recovery</strong>. Relying on password is not enough. Managing private keys or mnemonics is too complex. Hardware tokens are rare. We need to build a secure system for the unskilled, the absent-minded and the naive.</p>
+<p><strong>Incentives</strong>. Until widely adopted one cannot call it an identity system. We need a lot of businesses and a lot of users. But why would anybody participate?</p>
+<p>It does matter who you are, where you are and who you friends with. We will often use this as a metaphor to shape our thinking when solving these problems.</p>
 </div>
 <div class="section" id="sybil-attack-protection">
 <h2>Sybil attack protection<a class="headerlink" href="#sybil-attack-protection" title="Permalink to this headline">¶</a></h2>
@@ -62,14 +73,14 @@
 <li>Face recognition server</li>
 <li>FOAM’s proof of location service</li>
 </ul>
-<p>Here is how registering a new user looks like in short:</p>
+<p>Registering a new user:</p>
 <ol class="arabic simple">
 <li>Take a picture of a registering user using Upala app</li>
 <li>Detect twins with face-recognition algorithm</li>
 <li>If twins are detected they need to take selfies simultaneously in different places (proof of location)</li>
 <li>Random validators confirm that the new selfies depict the same people as their ID photos</li>
 </ol>
-<p>The solution is described in detail <a class="reference external" href="https://medium.com/six-degrees-of-separation/a-solution-to-sibyl-attack-problem-for-upala-identity-proof-system-ca924202ab8f">this blog post</a> . It is still a draft though. The final solution will be added as a separate section to this documentation.</p>
+<p>The solution is described in detail <a class="reference external" href="https://medium.com/six-degrees-of-separation/a-solution-to-sibyl-attack-problem-for-upala-identity-proof-system-ca924202ab8f">this blog post</a> . Which is still a draft though. The final solution will be added as a separate section to this documentation.</p>
 <p><strong>Proof of location using known landmarks</strong></p>
 <p>Known landmarks can be used to confirm location until FOAM is released. Registering a new user or confirming a twin will require putting an object available through Google street view on the background. Validators confirm landmarks on photos.</p>
 <p><strong>Starting communities independently</strong></p>
@@ -77,9 +88,17 @@
 </div>
 <div class="section" id="account-recovery">
 <h2>Account recovery<a class="headerlink" href="#account-recovery" title="Permalink to this headline">¶</a></h2>
+<p>It does matter who you are, where you are and who you friends with. The 3 unique features are used to identify a person: face, location and friends. What if you want to recover your account:</p>
+<ol class="arabic simple">
+<li>Search the account. Take a selfie with the Upala app.</li>
+<li>Select the one which belongs to you. You can&#8217;t see any photos or names. Type your real name to select your account.</li>
+<li>Meet with some of your friends physically (with location proof) to unlock your account.</li>
+</ol>
+<p>Account recovery process is another incentive to connect (within the system) with trustworthy friends.</p>
 </div>
 <div class="section" id="incentives">
 <h2>Incentives<a class="headerlink" href="#incentives" title="Permalink to this headline">¶</a></h2>
+<p>No bots in social networks, no spam (as spammers will not be able to abuse single account too much), no CAPTCHA. These are some of the benefits and incentives both for users and services.</p>
 </div>
 </div>
 
@@ -92,7 +111,9 @@
   <h3><a href="index.html">Table Of Contents</a></h3>
   <ul>
 <li><a class="reference internal" href="#">LIGHT PAPER</a><ul>
-<li><a class="reference internal" href="#main-features">Main features</a></li>
+<li><a class="reference internal" href="#about-this-document">About this document</a></li>
+<li><a class="reference internal" href="#upala-main-features">Upala main features</a></li>
+<li><a class="reference internal" href="#main-challenges">Main challenges</a></li>
 <li><a class="reference internal" href="#sybil-attack-protection">Sybil attack protection</a></li>
 <li><a class="reference internal" href="#account-recovery">Account recovery</a></li>
 <li><a class="reference internal" href="#incentives">Incentives</a></li>

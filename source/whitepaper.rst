@@ -2,14 +2,25 @@
 LIGHT PAPER
 ===========
 
-Main features
--------------
-- Proof of uniqueness
-- Data on demand
-- No password
+About this document
+-------------------
+This document is under development. It originates from the series of blogposts and discussions `listed here <https://airtable.com/shrNQ0VClgqBiHmkL/>`_. Everyone is welcome to join. The document is meant to be short and easy to understand, with no technical details. 
 
+Upala main features
+-------------------
+- Proof of uniqueness. One person — one ID.
+- Disclosure on demand. Decide which pieces of information to share.
+- Friends recover each other's accounts. 
 
+Main challenges
+---------------
+**Sybil attack**. How to prevent a malicious actor from creating multiple accounts?
 
+**Account recovery**. Relying on password is not enough. Managing private keys or mnemonics is too complex. Hardware tokens are rare. We need to build a secure system for the unskilled, the absent-minded and the naive.
+
+**Incentives**. Until widely adopted one cannot call it an identity system. We need a lot of businesses and a lot of users. But why would anybody participate?
+
+It does matter who you are, where you are and who you friends with. We will often use this as a metaphor to shape our thinking when solving these problems. 
 
 Sybil attack protection
 -----------------------
@@ -34,14 +45,14 @@ Components:
 - Face recognition server
 - FOAM’s proof of location service
 
-Here is how registering a new user looks like in short:
+Registering a new user:
 
 1. Take a picture of a registering user using Upala app
 2. Detect twins with face-recognition algorithm
 3. If twins are detected they need to take selfies simultaneously in different places (proof of location)
 4. Random validators confirm that the new selfies depict the same people as their ID photos
 
-The solution is described in detail `this blog post <https://medium.com/six-degrees-of-separation/a-solution-to-sibyl-attack-problem-for-upala-identity-proof-system-ca924202ab8f>`_ . It is still a draft though. The final solution will be added as a separate section to this documentation.
+The solution is described in detail `this blog post <https://medium.com/six-degrees-of-separation/a-solution-to-sibyl-attack-problem-for-upala-identity-proof-system-ca924202ab8f>`_ . Which is still a draft though. The final solution will be added as a separate section to this documentation.
 
 **Proof of location using known landmarks**
 
@@ -54,6 +65,18 @@ The presented sibyl attack protection mechanism provides an additional benefit. 
 Account recovery
 ----------------
 
+It does matter who you are, where you are and who you friends with. The 3 unique features are used to identify a person: face, location and friends. What if you want to recover your account:
+
+1. Search the account. Take a selfie with the Upala app.
+2. Select the one which belongs to you. You can't see any photos or names. Type your real name to select your account.
+3. Meet with some of your friends physically (with location proof) to unlock your account.
+
+Account recovery process is another incentive to connect (within the system) with trustworthy friends.
+
 
 Incentives
 ----------
+
+No bots in social networks, no spam (as spammers will not be able to abuse single account too much), no CAPTCHA. These are some of the benefits and incentives both for users and services. 
+
+This is probably not enough for the start. Needs more research. 

@@ -13,6 +13,8 @@ Links:
 - `Twitter <https://twitter.com/TheUpala/>`_
 - `Telegram <https://t.me/upala_cherish_the_difference/>`_
 - `GitHub <https://github.com/porobov/upala-docs/>`_ (edit this documentation)
+- Join mail list
+- Reddit 
 
 Upala documentation:
 ====================
@@ -28,6 +30,7 @@ Donate:
 - Ethereum
 - Bitcoin
 - Zcash
+- PayPal
 
 Indices and tables
 ==================
