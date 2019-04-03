@@ -2,15 +2,19 @@
 LIGHT PAPER
 ===========
 
-About this document
--------------------
-This document is under development. It originates from the series of blogposts and discussions `listed here <https://airtable.com/shrNQ0VClgqBiHmkL/>`_. Everyone is welcome to join. The document is meant to be short and easy to understand, with no technical details. 
+Greetings human!
+----------------
+Upala is here to help you distinguish humans from bots. It 
 
 Upala main features
 -------------------
 - Proof of uniqueness. One person — one ID.
 - Disclosure on demand. Decide which pieces of information to share.
 - Friends recover each other's accounts. 
+
+About this document
+-------------------
+This document as well as the Upala itself is under development. It originates from the series of blog posts and discussions `listed here <https://airtable.com/shrNQ0VClgqBiHmkL/>`_. Everyone is welcome to join. The document is meant to be short and easy to understand, with no technical details. 
 
 Main challenges
 ---------------

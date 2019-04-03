@@ -27,10 +27,10 @@ Upala documentation:
 Donate:
 =======
 - `Buy ads <https://themillionetherhomepage.com/>`_ (help Upala and charity)
-- Ethereum
-- Bitcoin
-- Zcash
-- PayPal
+- `Ethereum <https://etherscan.io/address/0xddB1CB4EdBCD83066Abf26E7102dc0e88009DEAB>`_
+- `Bitcoin <https://blockexplorer.com/address/3K4FSqxS5cygY969L1xz6a2DZCqfTTNxQk>`_
+- `Zcash <https://explorer.zcha.in/accounts/t1aNWzSes9CdJUQSWsoZpv4gnYdStwV9KtW>`_
+- `PayPal <https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7D24QJS68DQ4G&source=url>`_
 
 Indices and tables
 ==================
