@@ -1,10 +1,16 @@
-===========
-LIGHT PAPER
-===========
+=======================================================
+PALE BLUE PAPER (outdated, please refer to Medium Blog)
+=======================================================
+
+**WARNING!**
+
+This document is outdated. The most recent information is `here <https://medium.com/six-degrees-of-separation/what-is-upala-all-you-need-to-know-updated-regularly-21e585f20c43/>`_.
+
+**WARNING!**
 
 Greetings human!
 ----------------
-Upala is here to help you distinguish humans from bots. It 
+Upala is here to help you distinguish humans from bots. 
 
 Upala main features
 -------------------
