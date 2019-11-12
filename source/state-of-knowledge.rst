@@ -13,6 +13,7 @@ Uniqeness, trust
 - `IDENA <https://idena.io/?view=faq>`_ - sybil protection by meaningful story captcha
 - `TrustLines <https://trustlines.network/>`_ - decentralized immutable accounting system for netted IOU balances between trusted parties
 - `Pseudonym Pairs <https://panarchy.app/Proof-of-power.pdf>`_ does it in zero degrees of separation.
+- `Encointer <https://encointer.org/>`_  personhood through pseudonim pairs. People meet physically simultaneuosly. Incentives through UBI. Own blockchain.
 - `Web Of Trust <https://en.wikipedia.org/wiki/Web_of_trust>`_
 - `Friend to friend <https://en.wikipedia.org/wiki/Friend-to-friend>`_
 - https://tse.bitnation.co/
