@@ -55,7 +55,7 @@ Recovery
 
 Zero Knowledge, privacy
 '''''''''''''''''''''''
-
+- `AZTEC protocol <https://medium.com/aztec-protocol/confidential-transactions-have-arrived-a-dive-into-the-aztec-protocol-a1794c00c009>`_- "Being able to prove that you’re part of a group, without revealing who in the group you are".
 - https://enigma.co/ -  secure computation protocol, where “secret nodes”  perform computations over encrypted data.
 - https://status.im/ - secret messaging check it out
 
