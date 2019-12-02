@@ -1,0 +1,236 @@
+Систематизация знаний и мыслей о восстановлении доступа. 
+
+## Recovery in a decentralized system - постановка задачи, assumptions. 
+
+What does it mean to recover in a decentralized manner. Most of the existing solutions are from centralized world. 
+
+__Assumption 1.__ As mentioned in previous article, we are building a decentralized password manager. It is a base layer of person's security. We have to be able to recover an account of a person who lost everything: no phone, no computer, no e-mail password or acces to any social networks. 
+__Assumption 2.__ No sybil attack protection here. We assume that a person may have several accounts. To not put additional restrictions on our design. 
+__Task.__In this case recovery goes to identification of the person. Some trusted entity must identify our victim (todo synonim) to recover their account. The entity should also make sure that a victim is acting at their own will. Trusted means 
+
+## Features
+The big goal is to create a system secure enough to be used as a base of person's security (password manager, wallet, identity). Here we only discuss access recovery features.
+- Initiate
+- Confirm (by a number of confirmations or hreshold weight)
+- Reinitiate (block, panic or mark as malicious).
+- Delete (on death or hijacking)
+
+    We also thought of other flavors of reinitiate. In case someone notices their account is beign stolen. But we've come to a conclusion, that there is no need in that. It all have tradeoffs what if someone is not trying to steal, but just panics forever. We assume that Initiate means block current account, cancel current initiation process (if any) and start a new inititation process. 
+
+__Anonimity__
+- No personal data exposed anywhere
+- Including social connections (пусть и анонимные)
+
+## Alternative paths and conditions (high level)
+__Ways to identify a person:__ 
+- Through friends (those who know you)
+- Through a third party (those who don't know you)
+    + Biometry (face, DNA, fingerprint, walkprint, teeth, veins, retina...)
+    + State ID.
+
+__Conditions of trust. The victim must be sure that the entity:__
+- Will not betray (collusion attack).
+- Will not be tricked (social engineerin attack - a doll, an actor with a mask, an android?).
+- Will check that the victm is acting at will (blackmail).
+
+__What is there at our disposal__
+Cannot be lost:
+- Friends
+- Biometry
+- Memory (can be forgotten though)
+- Location
+Can be lost or broken:
+- Paper
+- Any hardware
+
+
+
+
+
+## Parties (Agents) - Solution (todo I'm thinking aloud. Probably, maybe)
+
+Any way we are. In a decentralized system the only way is to distibute responsibility among different parties.Further are parts which can have a weight in recovery authorization. 
+
+These are not explicitly humans or organizations. A person's memopry is a party too. It bears a part of responsibility. 
+
+todo flexibility
+
+
+### Memory-based - ok
+
+__Secret code word__ - user enters secret code word to initialize or confirm recovery. The app keeps reminding the word in a form of quiz (like Authy). The app also reminds not to play the quiz in public, so that noone seees the word. 
+__Respawn point__ - the app guides through a mnemonic process to help user memorize the place of registering an account. To recover the user (or one of his/her friends must be at that place. Here we have to split Earth surface into sectors in order to adjust to GPS inaccuracy, thus possible entropy too low. To encrease entropy we can ask to memorize a set of such places and order - a path.
+__Control questions__ - the app offers to select a question: name of your pet, where was your first flight, first car. Possible entropy too low - the answers will probably be the ones at the first lines of a password brutter. 
+
+
+### Friends-based (person-based) - ok
+Facebook has 3 out 5 scheme of recovery by friends. It ask a user to select 5 trusted friends, who will all get notification when the user asks for recovery. But for Facebook it is just one of the possible methods. We cannot guarantee that at least 3 of 5 will still use the service when recovery is needed. We cannot solely rely on the same procedure. Good news is that we have...
+
+__Incentive and responsibility__ - ok
+We can try to invent a material responsibility for not behaving friends, but for now we assume that social responsibility is enough. Apparantly one will never forget a traitor who tried to steal their account. As for social engineering attacks the app could ask a frind to go throgh a quiz before taking actions. "Have you talked over a phone? Is recovery said to be urgent? Have you friend mentioned this quiz?". No one wants to be seen as a fool or irresponsible. 
+
+The same with initiative. Probably no initiative is neeed except real-world off chain "thank you", gift or recoverers party. 
+
+__Attacks to keep in mind:__ - ok 
+- Friends can betray.
+- Friends can be blackmailed. Why not blackmail a victim then? Is victim unreachable or better protected? 
+- Most important of all, friends can be tricked through social engineering, actors, dolls, deep fakes. 
+
+__Ways to use friends (agents):__ - ok
+_User selected friends (3 out of 5)_
+User selects a number of trusted friends. Recovery requires confirmation from any 3 of them. Pros - Simple. Cons. Some of friends may not be available. In early stages there may be not enough people who one can trust fully.
+
+_Friends selected at random by the system (proceed until 3 confirmations acieved)_
+User has a lot friends (>10). When recovery is initialized 3 of them at random get requests for confirmation or rejection. If any of them keeps idle, after a timeout another user gets notified. And so on.
+Pros. 
+- Easier onboarding - user doens't have to chose trusted friends. 
+- A better compatibility with future Sybil-protection features - may serve as an additioanl incentive to avoid bots. 
+- Much harder to collude than with 3 out of 5 scheme.
+Cons.
+- More prone to social engineering. A remote friend will not bother enough to check the person's identity or doesn't know the person well enough. 
+- A remote friend may be reluctant to cooperate (less social incentive)
+
+_Threshold percentage of all friends_
+Say more than half of all friends confirm recovery. 
+Pros.
+- Same as the above, but even simpler to implement.
+Cons.
+- A lot of friends have to take actions.
+
+__Enhance security - fight social engineering.__
+A deeply faked friend's voice is calling over a phone and asks for recovery. "It is urgent! As we cannot meet right now you have to alter your phone's gps coordinates. Here are the instructions. Please do it ASAP! It is life and death question!" Pressure could be tough. Preformer could be very persuasive - same voice, same manner of talking, real facts of your friendship.
+
+To counter this vector of attack we can add additional security measures over any of the agents above. What can we do?
+
+_Force personal intersection_
+Additional measure to force people meet each other in person. There could be witnessed procedures and phone proxoimity based (todo think over a name for it)
+Witnessed:
+- A friend to initialize, a friend to meet in person and take pictures, a friend to confirm the picture. Cons. The picture could be easily faked as well.
+- Meet two friends simultaneously. Cons. Probably it could be even easier to trick two friends than one. 
+- Witnessed by a third person. Cons. Hard to create responsibility for the third person. See further (organizations).
+
+App forced.
+- Confirming device proximity with gps, bluetoth, sound or camera. Or all at once. 
+- FOAM's dynamic location proof (tech from future). But probably it is too paranoic to believe that a friend will be convinced by a hacker (performer) to hack own GPS coordinates. 
+
+_Intimate questions_
+A question could be only predefined while account is still under control. So that we eliminate situations when someone asks "Where did we go yesterday together?". This question may seem intimate to a friend, but it could be easily forged by someone spying a victim.
+
+We could expect two types of answers: exact and absrtact.
+
+Exact answer is just like password. A recoverer needs to enter an exact information to proceed with recovery... But if it is the same as password why bother inventing it? 
+
+An abstract answer could only be verified by a friend (Otherwise we'd had to predifine all possible forms of it). Thus it is no better than just a conversation over a phone where a friend asks. This could be a preselected message for each friend which the friend recieves with the recovery request. This could be easily implemented. 
+
+### An organization - ok
+An organization could identify a person trough biometry (face, fingerprints, DNA) or a state issued id. Centralized or decentralized the only way for an organization to build trust is to be exposed to some risk. Traditional centralized organizations could be exposed to legal risks. The decentalized one rely on penalties. But whether we are punishing an organization with lost stake or reputation. We have to catch an organization on cheating first. How can we do it? 
+
+__Agents__
+_DAOs_
+We could provide an incentive to create DAOs helping with recovery process (and probably taking part in sybil-protection mechanism). Whether an organization would rely on biometry or state ID, the procedure for recovery would be the same. The person would have to attend an office and confirm identity.
+
+    Did you know?
+    Face authentication is cruel. Apple says the possibility of braking their Face ID is 1/1000000. But what is the possibility of failing to unblock your own phone? If we tie recovery procedure to face recognition we incentivize malicios actors to make owner's face unrecogizable. Sounds like a joke at first, but could really be an issue.
+
+_Random user_
+A random user identifying a person is essentially the same thing as an organization. The system selects a random person and offers them to participate in recovery procedure for a reward. The problem is the same as with organization - how to punish a malicious or mistaking user. 
+
+__Responsibility__
+_Slashing (reporting a stolen account)_
+One could invent a special procedure to recover a stolen account - like asking friends to remove friendship connections or asking another DAO (or a number of DAOs) to confirm that the previous recovery attempt was malicious. But it all leads to an increased attack surface and more confusion in the long run. All we realy need is an ability to reinitiate recovery procedure. After restoring their account a user could submit a complaint punishing a malicious actor. But it seems there is no reliable way to confirm that an account was stolen. In a decentralized system it all comes down to betting and then to politics.
+
+_Random known cheater (secret shopper)_
+Another approach inspired by TrueBit. As we cannot confirm a cheater, let's create one. The system could randmly select a user and offer them to trick a DAO (defined by the system as well). The DAO would then earn reputation only by catching those secret shoppers. The secret shopper earns a little by just participating and a considerable ammount by really cheating the DAO. 
+
+_General purpose oracles_
+Something from the future. There is a demand for publishing real world data on blockchain. Probably there is a way to use these future oracles in recovey process.
+
+__Conclusion on DAOs__
+Implement friends and memory procedures first. 
+
+### Hardware
+The role of any hardware (phone, security key) is only securing day by day access. We cannot rely on it because it could be lost or stolen. Same with seed phrase on paper. Same with biometry, considering thoughts above. 
+
+### Time lock
+Probably it would be beneficial to let user set timelocks anywhere they want to enhance security. 
+
+
+
+## Upala
+Among the agents above here is our choice for the nearest future. 
+Recovery process:
+- Initialize with a secret phrase through one of preselected friends.
+- Get at least one confirmation from a random friend. A feature so that a friend recieves a list of questions he/she should ask to confirm personality. 
+- Get two confirmations from real-world intersection. 
+
+Here is an POC smart contract, where a user can chose which agents they would like to use for recovery. 
+
+The rest functionality is similar to one of Gnosis.Safe. 
+
+
+
+## Anonimity
+__Here is how we plan to keep social connections secret.__
+
+On establishing a frindship, a special address is generated by both parties. These addresses are never used except for recovery. When recovery is needed, the one who is recovering sends money to a friend's address. A friend confirms recovery from that address and send all the excessive funds with the transaction. Thus a friend has a private key to control an address, but it is only the one who recovers who by sending funds leaves any trace of connection. The address could only be associated with the one who initializes recovery process. 
+
+Using SNARKS we can even hide a list of preselected friends from everyone including those friends. Here is an exaplme secret word contract. The allowed msg.sender address is hidden inside the SNARK, so that even a trusted friend is anaware if he or she is trusted. 
+
+
+
+
+
+
+
+
+
+=================================
+__Panic (меня угнали)__
+Сразу несколько друзей посылают запросы на восстановление. Это значит, что я хочу заблокировать аккаунт. 
+Злоумышленник может таким образом мне просто вставить палки в колеса. 
+Нужно ли различать?
+Что значит угнали? 
+У меня еще есть ключ? 
+Просто каждый знает. Всем зададут вопросы. Видели вы человека вживую? 
+
+После паники в два раза усложняется процедура восстановления. 
+
+_Как соотносятся между собой потерял и угнали?_
+
+Потерял
+Что может сделать - процедуру восстановления. 
+
+Угоняют, но не потерял.
+Видит, что кто-то пытается осуществить транзакцию или восстановить доступ
+Может заблокировать и запустить процедуру восстановления. 
+То же самое может сделать и злоумышленник. От своего аккаунта пишет, что его угоняют. Т.е. должен запустить процедуру восстановления. 
+
+_Угоняют и потерял._
+Тоже должен запустить процедуру восстановления. 
+
+Чем отличаются процедуры восстановления при угоне и утере? Как сделать так, чтобы процедуру не инициировали ради вставления палок в колеса? Есть ли смысл злоумышленнику блокировать аккаунт? 
+
+Процедура восстановления платная. И можно получить деньги, если смог доказать, что тебя взламывал кто-то. Но тогда будет еще больше инициативы взламывать. 
+
+Можно сделать процедуру восстановления после угона в два раза сложнее и использовать других людей. 
+
+Ну, что если злоумышленник начинает на перегонки оспаривать владение аккаунтом? Друзья просто будут запутаны. И сам запутаешься тоже. 
+
+Возможно, можно просто блокировать любую транзакцию. Потом, после восстановления можно указать, что была попытка угона. 
+
+_Еще попробую. Конкретно с друзьями._
+Вижу, что по моему кошельку проходит крупная (или не очень) транзакция. Если есть доступ, то я ее блокирую. Просто начинаю процедуру восстановления. Аккаунт блокируется на время процедуры. 
+
+Если я потерял доступ и вижу такую транзакцию. Иду (или звоню к другу и прошу заблокировать).
+
+Процесс блокировки проще, чем процесс восстановления. Злоумышленнику никакого смысла делать блокировку нет (разве что он хочет затормозить какую-то сделку).
+
+_А зачем вообще блокировать?_
+Нет никакого смысла, потому что после этого нужно делать восстановление в любом случае и немедленно. Просто процесс восстановления сразу блокирует. Если у вас прямо угнали аккаунт с помощью процесса восстановления. Тут уж ничего не поделаешь. Нужно просто еще раз восстановить.
+_не нужно вообще отдельной сущности_
+
+_Нужна ли отдельная процедура для паники_
+Нужно просто добавить возможность инициировать процедуру восстановления еще раз, если видишь, что кто-то взламывает. 
+
+_Нужно просто иметь возможность перезапустить процедуру восстановления_
+Захочет ли злоумышленник так делать? Только если он хочет вставить палки в колеса. Если он знает кодовое слово, он может сколько угодно продлевать процедуру. Нет, он же должен обратиться через одного из друзей. Тогда я говорю друзьям, что не надо больше паники... Нет я просто говорю друзьям, что надо видеть меня лично... А если у меня уже нет возможности обратиться ко всем лично? Если я хранил все пароли в этой системе? 

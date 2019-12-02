@@ -1,0 +1,42 @@
+
+No matter how hard you try to analyse a graph for a sybil attacks it is still an approximation. And there is no reliable way to prove that one algorythm os better than another. Or to get an exact number of bots or sybils in a system
+
+Here is a proposal of a system, which doesn't need graph analysis. 
+
+Another thing is that most of the sybil defence systems analyse existing graphs. todo invvestigate
+
+In digital identity we are free to build any logic so that the sole purpose of participants is to build the graph. 
+
+We are trying to get rid of graph analysis.
+
+How would you do without graph analysis
+- incentives of not adding a bot 
+- incetives to 
+- mechanics of scoring 
+
+We have already proposed a mechanism based on random handshakes (todo link). But it requires biometry (face recognition). This approach is purely game-theoretic.
+
+# How one could catch a bot. 
+We are shifitng the problem. 
+
+Let's not catch bots at all. 
+
+We want to provide the most accurate information on bots percentage in the network. We've already described a similar thing in bots market as a quality control layer. Here we extend the idea as to provide an additional incetive not to approve bots. 
+
+Here's how it works. 
+First, as in the bot market idea, we provide a possibility to purusfully create a bot. As in the bot market idea. It provides management features. Like mass contorol, selling and renting bots. 
+Second, we provide an additioanal functionality to a bot. Self-destruct. Anlike self-destruction process described in market, we are now a bot to collect some tax from those who approved the bot. 
+With ZK we will ensure that nobody knows which account are bots, exceprt their owners. We hope to create an environment, where there is no reason for a bot owner not to mark their false identities as bots. There are only benefits for the bot owner. 
+The benefits for the platform are the punishments, which bots can asdlfj on their "friends" and the possibility to know the totatl number of bots. 
+
+We hope this number to be small enough for the services. The services will just need to compensate for the risk of dealing with a bot. 
+
+Is it possible (practical) to create such a thing on Ethereum? Can anyboy advise a person to talk to. 
+
+# Take control of an account 
+There is another incentive not to cooperate with bots. 
+
+# The scoring
+Ok here we need help. 
+Here we would like users to pull their score as tokens from other participants. 
+We are thinking maybe of a multicoin system, where 
