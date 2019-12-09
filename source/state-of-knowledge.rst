@@ -51,6 +51,7 @@ Recovery
 - https://securekey.com/ - funded by world bank
 - https://pillarproject.io/project - "The Wallet is Everything". Building a wallet with identity strage functionality. No details about recovery except they are planing to use hardware wallets and friends. 
 - https://rivetz.com/ - recovery. DUAL ROOTS OF TRUST - software wolutions for splitting keys (expl. SIM card + smartphone secure enclave)
+- `EIP2429 <https://github.com/ethereum/EIPs/blob/5204f606b7634f79ae8c3aabae8a55772aa2d855/EIPS/eip-2429.md>`_ - Secret Multisig Recovery. Social recovery using address book merkle proofs.
 
 
 Zero Knowledge, privacy
@@ -93,8 +94,8 @@ Sybil attack protection in social networks
 - `SybilRank <https://users.cs.duke.edu/~qiangcao/sybilrank_project/index.html>`_- Aiding the Detection of Fake Accounts in Large Scale Social Online Services 
 - `Sybil attack on lowest id clustering algorithm in the mobile ad hoc network <https://pdfs.semanticscholar.org/80de/5f955f2532af4622f29da49f02f86513e264.pdf>`_
 - `Visualization assisted detection of sybil attacks in wireless networks <https://www.researchgate.net/publication/221325896_Visualization_assisted_detection_of_sybil_attacks_in_wireless_networks>`_
-- The Sybil attack in sensor networks: analysis & defenses by 
-J. Newsome, E. Shi, D. Song, A. Perrig
+- The Sybil attack in sensor networks: analysis & defenses by J. Newsome, E. Shi, D. Song, A. Perrig
+
 
 Sybil tolerance 
 ................

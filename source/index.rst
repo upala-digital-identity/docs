@@ -7,6 +7,18 @@
 
 Upala is a digital identity system. 
 
+
+
+Upala documentation:
+====================
+
+.. toctree::
+   :maxdepth: 2
+
+   whitepaper
+   explosive-bots
+   state-of-knowledge
+
 Links:
 ======
 - `Medium Blog <https://medium.com/six-degrees-of-separation/>`_
@@ -17,15 +29,6 @@ Links:
 - `Edit this documentation <https://github.com/porobov/upala-docs/>`_
 
 .. - Join mailing list (todo)
-
-Upala documentation:
-====================
-
-.. toctree::
-   :maxdepth: 2
-
-   whitepaper
-   state-of-knowledge
 
 Donate:
 =======
