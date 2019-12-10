@@ -1,7 +1,16 @@
-============
-INSPRIRATION
-============
+============================
+HOW TO BUILD ON TOP OF UPALA
+============================
 Links for digital identity enthusiasts. I use this document as personal archive and read-later list. I thought it isworth publishing. It is good source of quality info on digital identity and related topics. 
+
+
+Examples
+========
+todo 
+
+Antisybil games (State of knowledge)
+====================================
+
 
 Identity projects
 -----------------
@@ -20,6 +29,7 @@ Uniqeness, trust
 - https://duniter.org/en/
 - https://www.humanitydao.org/ - voting for a new member
 - https://www.objectivemoney.org/ - voting for a new member
+- `POAP <https://www.poap.xyz/>`_ - The Proof of Attendance Protocol. Allows humans to collect badges in the form of non fungible tokens every time they participate in an activity, in person or remotely.
 
 Storage and access 
 ''''''''''''''''''

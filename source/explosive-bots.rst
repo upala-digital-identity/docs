@@ -1,10 +1,10 @@
-==============
-EXPLOSIVE BOTS
-==============
-High-level incentives protocol (layer)
+=======================
+EXPLOSIVE BOTS PROTOCOL
+=======================
+High-level incentives protocol (layer).
 
-The game
-========
+How Upala works
+===============
 
 The main ideas are the notions of groups and explosive bots.
 
@@ -61,25 +61,25 @@ Entities
 --------
 Simple building block to build complex systems
 
-Users - Humans (or explosive bots)
---------------------------
 
 
+No token economy
+----------------
+No global economy. No way to close the circuit for own token. Allows to be a cross standard to unite different systems. 
 
-Groups
-------
 
-Any account can cause damage to a group. 
+Wrap and unite
+--------------
+
 Anyone can chose whether to gain reputation or to trade it for cash (and lose chance to enter those groups again). 
+
 
 and an amount of capital along the path from user to the group under attack. 
 
 Bots train the network
 ----------------------
 
-token used
-----------
-No global economy. No way to close the circuit for own token. 
+
 
 Examples
 ========
@@ -91,8 +91,8 @@ Support of developing countries
 
 
 
-Further work
-============
+Future work
+===========
 
 Counting the bots
 -----------------

@@ -9,11 +9,8 @@ Upala is a digital identity system.
 
 
 
-Upala documentation:
+Pale Blue Paper (Upala documentation):
 ====================
-PALE BLUE PAPER - what is upala
-EXPLOSIVE BOTS PROTOCOL - how upala works
-INSPRIRATION - build on top of upala. examples, antisybil games, sok
 
 .. toctree::
    :maxdepth: 2
@@ -41,10 +38,8 @@ Donate:
 - `Zcash <https://explorer.zcha.in/accounts/t1aNWzSes9CdJUQSWsoZpv4gnYdStwV9KtW>`_
 - `PayPal <https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7D24QJS68DQ4G&source=url>`_
 
-Indices and tables
-==================
+.. Indices and tables
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+.. * :ref:`genindex`
+.. * :ref:`modindex`
+.. * :ref:`search`
