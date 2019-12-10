@@ -11,6 +11,9 @@ Upala is a digital identity system.
 
 Upala documentation:
 ====================
+PALE BLUE PAPER - what is upala
+EXPLOSIVE BOTS PROTOCOL - how upala works
+INSPRIRATION - build on top of upala. examples, antisybil games, sok
 
 .. toctree::
    :maxdepth: 2

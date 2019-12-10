@@ -16,13 +16,14 @@ Can create different systems. Even better it can be used to unite different syst
 
 Moving game on chain
 
+
+
+Entities
+--------
 Simple building block to build complex systems
 
-Summary
--------
-
-Humans (explosive bots)
------------------------
+Humans (or explosive bots)
+--------------------------
 Any account can cause damage to a group. 
 Anyone can chose whether to gain reputation or to trade it for cash (and lose chance to enter those groups again). 
 
@@ -55,3 +56,13 @@ System sustainability
 ---------------------
 As of writing we believe the system will work without a specific token or any other point of centralization or income funnel. It looks like a standard for contracts. Unfortunately there is no reliable funding scheme in sight. So please consider donating right now (todo link)
 
+Authorization commission
+------------------------
+The way a group can earn on authorization
+
+Bot attack details
+------------------
+How exactly the bot reward is shared among the members of attack path
+
+Privacy
+-------
