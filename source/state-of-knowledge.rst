@@ -1,6 +1,6 @@
-=================
-MATERIALS STUDIED
-=================
+============
+INSPRIRATION
+============
 Links for digital identity enthusiasts. I use this document as personal archive and read-later list. I thought it isworth publishing. It is good source of quality info on digital identity and related topics. 
 
 Identity projects

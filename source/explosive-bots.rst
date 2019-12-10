@@ -6,38 +6,88 @@ High-level incentives protocol (layer)
 The game
 ========
 
-The main idea of the game is the notion of explosive bots. 
-Groups and explosive bots. With this we can construst an incetives to build a hierarchy. 
-This is an incentives layer for other. 
+The main ideas are the notions of groups and explosive bots.
+
+Groups
+------
+Users join groups. Groups join larger groups (groups of groups). Larger groups join even larger groups. And so on. This creates a hierarchy with massive groups at the top and users at the bottom.
+
+A group sets scores to its members (users or lower-standing groups). The score means an amount of trust and is expressed in percents from 0 to 100.
+
+A **user score** is calculated relative to a group and relies on all the scores down the hierarchy. Say Alice has 90% score in group A, group A has 80% score in group B. Group B has 70% score in group C. Alice score in group B is then 
+0,90 x 0,80 x 100=72%. 
+Alice's score in group C is 
+0,90 x 0,80 x 0,70 x 100=50,4%
+
+The process of group creation is completely decentralized. The hierarchy grows naturally in bottom-up direction. Thus several top-level groups could emerge with millions (or even billions) of users in their subgroups. 
+
+A DApp may decide to trust any group and assess its users relative to that group. A DApp may chose a number groups to trust. 
+
+Users are allowed to join multiple groups and leave a group at any time. The same applies to groups. Similarly to MolochDAO rage quit feature.
+
+
+Explosive bots
+--------------
+Every group has a pool of Ether (more on token economy here - todo link). Every group member has a share in the group's pool. More on entering conditions of a group - todo link.
+
+Every user has an option to attack any group. That is to steal a portion of group's pool. The amount of the theft depends on user score in that group. The attack affects all groups along the path from user to the group under attack. If Alice decides to attack group C, that would also affect groups B and A. 
+
+A user performing such an attack is considered a bot. Such an attack is effectively stealing from other users, because the value of their shares drop. Presumably there is no way for this same user remains friends with. The act of stealing is immediately followed by self-destruction. Thus the name exploding bots. 
+
+In other words the Explosive bots features gives an opportunity to trade reputation for money. It incentivizes participants to carefully select who they trust. 
+
+
+This also allows to construct hierarchy. 
+
+Moving game on chain
+
+
+The measure of how hard it is to create a new human account in that particular system. 
+
+
 The idea is to give quantitative assurance of personhood
+
 Many network designs could be used. This is a standard to connect them all. 
 
 Can create different systems. Even better it can be used to unite different systems into one. 
 
-Moving game on chain
 
+
+
+With this we can construst an incetives to build a hierarchy. 
 
 
 Entities
 --------
 Simple building block to build complex systems
 
-Humans (or explosive bots)
+Users - Humans (or explosive bots)
 --------------------------
-Any account can cause damage to a group. 
-Anyone can chose whether to gain reputation or to trade it for cash (and lose chance to enter those groups again). 
+
+
 
 Groups
 ------
 
+Any account can cause damage to a group. 
+Anyone can chose whether to gain reputation or to trade it for cash (and lose chance to enter those groups again). 
 
-
-
+and an amount of capital along the path from user to the group under attack. 
 
 Bots train the network
 ----------------------
 
+token used
+----------
+No global economy. No way to close the circuit for own token. 
 
+Examples
+========
+Layer 2 analyzers
+Random handshakes
+Wrapping other blockchain identity systems
+Building state ID based system
+Support of developing countries
 
 
 
@@ -66,3 +116,14 @@ How exactly the bot reward is shared among the members of attack path
 
 Privacy
 -------
+
+Score intersection
+------------------
+What if a group combines say two lower groups. A user has a score in those groups. How is the score combined. Best score? Than there is another thing to consider when joining a top level group - are there any "higher score" groups so that adding a group giving lower scores is suicidal for the lower group.
+
+Burn tokens for bot explosion
+-----------------------------
+
+Native token
+------------
+Eth, dai, own token?
