@@ -1,16 +1,16 @@
 =======================
 EXPLOSIVE BOTS PROTOCOL
 =======================
-High-level incentives protocol (layer).
 
 How Upala works
 ===============
-
-The main ideas are the notions of groups and explosive bots.
+Summary. The main ideas are the notions of groups and explosive bots.
 Gives quantitative measure of personhood
+High-level incentives protocol.
+
 
 Groups
-------
+======
 Users join groups. Groups join larger groups (groups of groups). Larger groups join even larger groups. And so on. This creates a hierarchy with massive groups at the top and users at the bottom.
 
 A group sets scores to its members (users or lower-standing groups). The score means an amount of trust and is expressed in percents from 0 to 100.
@@ -28,21 +28,23 @@ Users are allowed to join multiple groups and leave a group at any time. The sam
 
 
 Explosive bots
---------------
+==============
 Every group has a pool of Ether (more on token economy here - todo link). Every group member has a share in the group's pool. More on entering conditions of a group - todo link.
 
 Every user has an option to attack any group. That is to steal a portion of group's pool. The amount of the theft depends on user score in that group. The attack affects all groups along the path from user to the group under attack. If Alice decides to attack group C, that would also affect groups B and A. 
 
 A user performing such an attack is considered a bot. Such an attack is effectively steals from other users, because the value of their shares drop. Presumably there is no way for this same user remains friends with. The act of stealing is immediately followed by self-destruction. Thus the name exploding bots. 
 
-A User is an Ethereum address, a wallet.  
+A User is an Ethereum address or a wallet.  
 
 
-Money flows. Incentive models. 
-==============================
+Incentive models 
+================
+Money flows.
 Pool size, bot explosion reward and member scores, bot explosion feature and exit feature are the only necessary parameters of a group. The rest is optional. Though this little constrain let build and unite a veriety of different systems. 
 
 Groups are allowed to choose:
+
 - Entering conditions (e.g. may require payment, an on-chain fact proof, a number of votes from current members, etc.)
 - Profit sharing rules (if the group is profitable in any way)
 - Member scoring rules
@@ -50,12 +52,8 @@ Groups are allowed to choose:
 - Privacy policy (visibility of group members to each other and other groups)
 - Receive payments for user score confirmation. 
 
-
 A group can pay to its members. Group can be a bank. It can issue a token. It can decide to be a MolochDAO-type or a TokenCurated registry type. Собственные тарифы на авторизацию пользователей для приложений (подписка, единовременный платеж за членство, платеж за каждую авторизацию или бесплатно. The only thing which is necessary is to follow the bot reward rules. 
 
-
-
-Ivitation - payment from top. 
 
 
 Groups can decide to chose different economy models. 
@@ -64,53 +62,71 @@ From bottom and from top.
 The system allows to build any incentive model. 
 
 
-No token economy
-----------------
+**No token economy**
 No global economy. No way to close the circuit for own token. Allows to be a cross standard to unite different systems. 
 
 
 
 
 Paradigms
-====================
+=========
 Simple building block to build complex systems. Many network designs could be used. This is a standard to connect them all. Can create different systems. Even better it can be used to unite different systems into one. 
 
-Build
------
+Group types
+-----------
+A whole range of possibilities can be achieved by utilizing a concept of group types. This is no part of the protocol. But it fits very nicely... 
+
+**Buffer**
+(Support of developing countries)
+
+**Aggregator**
+A group that gives access to scores. Ivitation - payment from top. 
+
+**Groups with Fixed Hierarchy Levels**
+There is no level per se. The hierarchy is built with the right initiatives. But one can create a group which allows subgroups of particular type.
+
+**TCR Groups**
+These are just a couple of examples of what
+
+
+Universes
+---------
+A branch in the hierarchy with certain common properties can from a Universe. 
+
+**Build**
+Built-in Upala protol
 Friends
 State ID based system
 A group of types may emerge. For State issued ID there may be types as follows. A city group type may accept only user as members. A group of type region accepts only cities, a country type accepts only 
 
-Wrap
-----
+**Wrap**
+Wrapped in Upala protocol
 Wrapping other blockchain identity systems
 Random handshakes
 Humanity DAO
 Provide lacking incentives layer
 
-Layer 2 analyzers
------------------
+**Layer 2 analyzer**
 
-Unite
------
+**Unite**
 Unite different identity systems
 
-Buffer
------
-(Support of developing countries)
+
+
+
+
+
 
 
 Conclusion
 =============
 
-Graph analysis
-----------------------
+**Graph analysis**
 The protocol provides incentives to build a hierarchy. Or rather it provides a tool to build incentives models and unite. Hierarchy simplifies social graph. 
 
 A DApp can use a score of a whole group (for whatever reason).
 
-Bots train the network
-----------------------
+**Bots train the network**
 the Explosive bots feature gives an opportunity to trade reputation for money. It incentivizes participants to carefully select who they trust. Moving game on chain
 
 The measure of how hard it is to create a new human account in that particular system. 
@@ -125,40 +141,29 @@ With this we are going to build our own types of Upala branches.
 Future work
 ===========
 
-Counting the bots
------------------
-The idea of explosive bots appeared first here (todo link to Bot black market). We hope to develop a system with some Zero Knowledge magic, able to count bots without revealing them. This most probaly will require to specify account type (bot or human) at creating once and forever. The actual implementation is to be discovered as well as its affect on the existing game. 
+**Counting bots** The idea of explosive bots appeared first here (todo link to Bot black market). We hope to develop a system with some Zero Knowledge magic, able to count bots without revealing them. This most probaly will require to specify account type (bot or human) at creating once and forever. The actual implementation is to be discovered as well as its affect on the existing game. 
 
-Standard, layer or protocol
----------------------------
+**Standard, layer or protocol**
 How to position the system better. Should be a ERC20-like standard of smart contracts. A Uniswap-like contract factory or something different. 
 
-System sustainability
----------------------
+**System sustainability**
 As of writing we believe the system will work without a specific token or any other point of centralization or income funnel. It looks like a standard for contracts. Unfortunately there is no reliable funding scheme in sight. So please consider donating right now (todo link)
 
-Authorization commission
-------------------------
+**Authorization commission**
 The way a group can earn on authorization
 
-Bot attack details
-------------------
+**Bot attack details**
 How exactly the bot reward is shared among the members of attack path
 
-Privacy
--------
+**Privacy**
 
-Score intersection
-------------------
+**Score intersection**
 What if a group combines say two lower groups. A user has a score in those groups. How is the score combined. Best score? Than there is another thing to consider when joining a top level group - are there any "higher score" groups so that adding a group giving lower scores is suicidal for the lower group.
 
-Burn tokens for bot explosion
------------------------------
+**Burn tokens for bot explosion**
 
-Native token
-------------
+**Native token**
 Eth, dai, own token?
 
-Multiple tokens
-------------
+**Multiple tokens**
 Is there a way for each group have it's own token
