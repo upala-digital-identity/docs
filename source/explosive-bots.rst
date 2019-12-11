@@ -37,50 +37,47 @@ A user performing such an attack is considered a bot. Such an attack is effectiv
 
 A User is an Ethereum address or a wallet.  
 
+The only thing which is necessary is to follow the **bot explosion rules**. That is a group is supposed to maintain a pool, bot explosion reward and member scores, bot explosion feature and exit feature are the only necessary parameters of a group. The rest is optional. There is no token economy and no governance model.
 
-Incentive models 
-================
-Money flows.
-Pool size, bot explosion reward and member scores, bot explosion feature and exit feature are the only necessary parameters of a group. The rest is optional. Though this little constrain let build and unite a veriety of different systems. 
-
-Groups are allowed to choose:
-
-- Entering conditions (e.g. may require payment, an on-chain fact proof, a number of votes from current members, etc.)
-- Profit sharing rules (if the group is profitable in any way)
-- Member scoring rules
-- Member exit rules (e.g. will the shares be returned)
-- Privacy policy (visibility of group members to each other and other groups)
-- Receive payments for user score confirmation. 
-
-A group can pay to its members. Group can be a bank. It can issue a token. It can decide to be a MolochDAO-type or a TokenCurated registry type. Собственные тарифы на авторизацию пользователей для приложений (подписка, единовременный платеж за членство, платеж за каждую авторизацию или бесплатно. The only thing which is necessary is to follow the bot reward rules. 
+The rest is out of protocol. However it is the strength of the system. It shows how Upala can unite different systems. 
 
 
+Incentive and governance 
+========================
+Groups are free to choose:
 
-Groups can decide to chose different economy models. 
+- Member entering conditions (e.g. my require a payment, an on-chain fact proof, a number of votes from its current members, etc.)
+- Profit distribution rules (if the group is profitable in any way)
+- Scoring rules (how exactly a group scores its members)
+- Exit rules (e.g. define shares refund policy)
+- Privacy policy (visibility of group members to each other and to other groups)
+- Score calculation commission for DApps or users (subscription, lifetime membership, per transaction, free of charge, etc.)
+- Commission for super-groups to allow inclusion (todo). 
+- Governance model
+- etc...
 
-From bottom and from top. 
-The system allows to build any incentive model. 
+A group can pay to its members or to charge them. It can issue a token or it can stick with DAI. It can decide to be a MolochDAO type or a Token curated registry type. The protocol allows groups to chose any incentives and governance model as well as many other parameters.
 
-
-**No token economy**
-No global economy. No way to close the circuit for own token. Allows to be a cross standard to unite different systems. 
-
-
-
+.. Money flows from bottom and from top.
 
 Paradigms
 =========
-Simple building block to build complex systems. Many network designs could be used. This is a standard to connect them all. Can create different systems. Even better it can be used to unite different systems into one. 
+With arbitrary incentives and governance models and freedom of options it is possible to build groups with very different properties. Thus groups can bear different roles within the system. We refer to groups with similar properties as **Group types**. 
+
+It is also possible to build totally different and independent full-featured identity systems using Upala protocol. We call them **Universes**.
+
+Neither Group types nor Universes are parts of the protocol. These are just paradigms with quite arbitrary names to describe what is possible to build with such a simple building block as a group. A whole range of possibilities can be achieved by utilizing a concept of group types.
 
 Group types
 -----------
-A whole range of possibilities can be achieved by utilizing a concept of group types. This is no part of the protocol. But it fits very nicely... 
-
 **Buffer**
 (Support of developing countries)
 
-**Aggregator**
-A group that gives access to scores. Ivitation - payment from top. 
+**Bank with benefits**
+(Support of developing countries)
+
+**Curator**
+A group may or may not provide access to user scores. It may chose that gives access to scores. Ivitation - payment from top. 
 
 **Groups with Fixed Hierarchy Levels**
 There is no level per se. The hierarchy is built with the right initiatives. But one can create a group which allows subgroups of particular type.
@@ -91,7 +88,9 @@ These are just a couple of examples of what
 
 Universes
 ---------
+Convenient to derive different hierarchies (systems).
 A branch in the hierarchy with certain common properties can from a Universe. 
+Allows to be a cross standard to unite different systems. Though this little constrain let build and unite a verity of different systems.
 
 **Build**
 Built-in Upala protol
@@ -106,15 +105,11 @@ Random handshakes
 Humanity DAO
 Provide lacking incentives layer
 
-**Layer 2 analyzer**
-
 **Unite**
-Unite different identity systems
+Unite different identity systems. **Layer 2 analyzer** special case
 
 
-
-
-
+Simple building block to build complex systems. Many network designs could be used. This is a standard to connect them all. Can create different systems. Even better it can be used to unite different systems into one. 
 
 
 

@@ -5,7 +5,7 @@ Links for digital identity enthusiasts. I use this document as personal archive 
 
 Inspiration
 ===========
-Here is the collection of our our insights on antiSybil protection and links to other people's work. This place is for those who is building their own identity system. 
+This section is the collection of our thoughts and insights on antiSybil protection and links to other people's work. This place is for those who is building their own identity system. 
 
 If you are one of them, please consider using Upala as a 
 

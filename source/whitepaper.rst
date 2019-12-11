@@ -6,6 +6,10 @@ WHAT IS UPALA
 
 This document is under construction. Please come back in a couple of days and check this message again. For now, the most recent information is `here <https://medium.com/six-degrees-of-separation/what-is-upala-all-you-need-to-know-updated-regularly-21e585f20c43/>`_. 
 
+What is Upala
+=============
+Upala is proof of uniqueness system. One person — one ID.
+
 
 Upala is an incentives layer protocol 
 
@@ -13,6 +17,8 @@ Upala is a simple protocol that helps to bring incentives layer to any proof of 
 
 Upala Univesres
 A collection of identity systems integrated into one system using Upala protocol. 
+
+build on top of and united by the protocol. 
 
 .. BrightID Quote "Social identity network of unique humans. allows people to prove to applications that they're only using one account."
 
@@ -57,10 +63,5 @@ It just happens so that blockchain is the perfect solution to use as a platform 
 ..Issued ID
 ..Defacto ID
 ..Self-asserted ID
-
-Upala main features
--------------------
-- Proof of uniqueness. One person — one ID.
-
 .. - Disclosure on demand. Decide which pieces of information to share.
 .. - Friends recover each other's accounts. 
