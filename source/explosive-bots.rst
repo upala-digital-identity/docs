@@ -7,6 +7,7 @@ How Upala works
 ===============
 
 The main ideas are the notions of groups and explosive bots.
+Gives quantitative measure of personhood
 
 Groups
 ------
@@ -32,35 +33,35 @@ Every group has a pool of Ether (more on token economy here - todo link). Every 
 
 Every user has an option to attack any group. That is to steal a portion of group's pool. The amount of the theft depends on user score in that group. The attack affects all groups along the path from user to the group under attack. If Alice decides to attack group C, that would also affect groups B and A. 
 
-A user performing such an attack is considered a bot. Such an attack is effectively stealing from other users, because the value of their shares drop. Presumably there is no way for this same user remains friends with. The act of stealing is immediately followed by self-destruction. Thus the name exploding bots. 
+A user performing such an attack is considered a bot. Such an attack is effectively steals from other users, because the value of their shares drop. Presumably there is no way for this same user remains friends with. The act of stealing is immediately followed by self-destruction. Thus the name exploding bots. 
 
-In other words the Explosive bots features gives an opportunity to trade reputation for money. It incentivizes participants to carefully select who they trust. 
-
-
-This also allows to construct hierarchy. 
-
-Moving game on chain
+A User is an Ethereum address, a wallet.  
 
 
-The measure of how hard it is to create a new human account in that particular system. 
+Money flows. Incentive models. 
+==============================
+Pool size, bot explosion reward and member scores, bot explosion feature and exit feature are the only necessary parameters of a group. The rest is optional. Though this little constrain let build and unite a veriety of different systems. 
+
+Groups are allowed to choose:
+- Entering conditions (e.g. may require payment, an on-chain fact proof, a number of votes from current members, etc.)
+- Profit sharing rules (if the group is profitable in any way)
+- Member scoring rules
+- Member exit rules (e.g. will the shares be returned)
+- Privacy policy (visibility of group members to each other and other groups)
+- Receive payments for user score confirmation. 
 
 
-The idea is to give quantitative assurance of personhood
-
-Many network designs could be used. This is a standard to connect them all. 
-
-Can create different systems. Even better it can be used to unite different systems into one. 
+A group can pay to its members. Group can be a bank. It can issue a token. It can decide to be a MolochDAO-type or a TokenCurated registry type. Собственные тарифы на авторизацию пользователей для приложений (подписка, единовременный платеж за членство, платеж за каждую авторизацию или бесплатно. The only thing which is necessary is to follow the bot reward rules. 
 
 
 
+Ivitation - payment from top. 
 
-With this we can construst an incetives to build a hierarchy. 
 
+Groups can decide to chose different economy models. 
 
-Entities
---------
-Simple building block to build complex systems
-
+From bottom and from top. 
+The system allows to build any incentive model. 
 
 
 No token economy
@@ -68,27 +69,57 @@ No token economy
 No global economy. No way to close the circuit for own token. Allows to be a cross standard to unite different systems. 
 
 
-Wrap and unite
---------------
-
-Anyone can chose whether to gain reputation or to trade it for cash (and lose chance to enter those groups again). 
 
 
-and an amount of capital along the path from user to the group under attack. 
+Paradigms
+====================
+Simple building block to build complex systems. Many network designs could be used. This is a standard to connect them all. Can create different systems. Even better it can be used to unite different systems into one. 
+
+Build
+-----
+Friends
+State ID based system
+A group of types may emerge. For State issued ID there may be types as follows. A city group type may accept only user as members. A group of type region accepts only cities, a country type accepts only 
+
+Wrap
+----
+Wrapping other blockchain identity systems
+Random handshakes
+Humanity DAO
+Provide lacking incentives layer
+
+Layer 2 analyzers
+-----------------
+
+Unite
+-----
+Unite different identity systems
+
+Buffer
+-----
+(Support of developing countries)
+
+
+Conclusion
+=============
+
+Graph analysis
+----------------------
+The protocol provides incentives to build a hierarchy. Or rather it provides a tool to build incentives models and unite. Hierarchy simplifies social graph. 
+
+A DApp can use a score of a whole group (for whatever reason).
 
 Bots train the network
 ----------------------
+the Explosive bots feature gives an opportunity to trade reputation for money. It incentivizes participants to carefully select who they trust. Moving game on chain
 
+The measure of how hard it is to create a new human account in that particular system. 
 
+Anyone can chose whether to gain reputation or to trade it for cash (and lose chance to enter those groups again). 
 
-Examples
-========
-Layer 2 analyzers
-Random handshakes
-Wrapping other blockchain identity systems
-Building state ID based system
-Support of developing countries
+на какую сумму оценивает себя их пользователь
 
+With this we are going to build our own types of Upala branches. 
 
 
 Future work
@@ -127,3 +158,7 @@ Burn tokens for bot explosion
 Native token
 ------------
 Eth, dai, own token?
+
+Multiple tokens
+------------
+Is there a way for each group have it's own token
