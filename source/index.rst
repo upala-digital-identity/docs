@@ -5,12 +5,14 @@
 
 .. image:: /img/Upala-logo-1000px.png
 
+
+Upala documentation
+===================
+
 Upala is a digital identity system. 
 
-
-
-Pale Blue Paper (Upala documentation):
-====================
+Pale Blue Paper
+---------------
 
 .. toctree::
    :maxdepth: 2

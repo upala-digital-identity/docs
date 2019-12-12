@@ -1,9 +1,11 @@
-=======================
-Explosive bots protocol
-=======================
-
+===============
 How Upala works
 ===============
+
+.. _bots:
+
+Explosive bots protocol
+=======================
 Summary. The main ideas are the notions of groups and explosive bots.
 Gives quantitative measure of personhood
 High-level incentives protocol.
@@ -39,13 +41,16 @@ A User is an Ethereum address or a wallet.
 
 The only thing which is necessary is to follow the **bot explosion rules**. That is a group is supposed to maintain a pool, bot explosion reward and member scores, bot explosion feature and exit feature are the only necessary parameters of a group. The rest is optional. There is no token economy and no governance model.
 
-That's it! **The rest is out of protocol.** However it is the strength of the system. It shows how Upala can unite different systems. 
+**That's it! The rest is out of protocol.** However it is the strength of the system. It shows how Upala can unite different systems. 
 
 .. A group may chose any currency as long as it can pay bot reward in DAI. There is a penalty for not doing so. 
 
-Incentive and governance 
-========================
-Groups are free to choose:
+.. _universe:
+
+The Upala Universe
+==================
+
+The protocol allows groups to **choose any incentives and governance model** as well as many other parameters. A group can pay to its members or to charge them. It can issue a token or it can stick with DAI. It can decide to be a MolochDAO type or a Token curated registry type. Groups are free to choose **everything that is not restricted by the protocol**. Other examples:
 
 - Member entering conditions (e.g. my require a payment, an on-chain fact proof, a number of votes from its current members, etc.)
 - Profit distribution rules (if the group is profitable in any way)
@@ -55,19 +60,9 @@ Groups are free to choose:
 - Score calculation commission for DApps or users (subscription, lifetime membership, per transaction, free of charge, etc.)
 - Commission for super-groups to allow inclusion (todo). 
 - Governance model
-- etc...
+- etc... 
 
-A group can pay to its members or to charge them. It can issue a token or it can stick with DAI. It can decide to be a MolochDAO type or a Token curated registry type. The protocol allows groups to chose any incentives and governance model as well as many other parameters.
-
-.. Money flows from bottom and from top.
-
-Paradigms
-=========
 Due to the freedom of options it is possible to build groups with very different properties. Thus groups can bear different roles within the system. We refer to groups with similar properties as **Group types**. 
-
-It is also possible to build totally different and independent full-featured identity systems using Upala protocol. We call them **Branches**.
-
-Neither Group types nor Branches are parts of the protocol. These are just sets of paradigms with quite arbitrary names. These paradigms help to understand the possibilities of the protocol. And can be helpful when building on top of Upala. 
 
 Group types
 -----------
@@ -86,25 +81,27 @@ A philanthropist may decide to bring a group with a small pool and small bot rew
 **Groups with Fixed Hierarchy Levels**
 There is no leveling constrains per se. The hierarchy is built naturally with initiatives. But one can create a group which allows only subgroups of particular type to be included as members. A group like this could become a building block of a state ID based identity system (described a little further).
 
-**TCR Groups**
+**TCR Group**
 A group may decide to use Token curated registry to curate it's members.
 
 
-The Upala Universe
+Branches
 ------------------
 
-**Branches**
-We can go further and build whole identity systems combining groups with similar properties. These systems can start as independent **branches** (that's how we call them). And then merge due to protocol compatibility. Here are a couple of example branches.
+It is also possible to build totally different and independent full-featured identity systems using Upala protocol. We call them **branches**.
 
-*Friends based branch*
-Friends join groups. Groups of friends join larger groups. And so on. Groups of groups will probably form around leaders. A betrayal (bot explosion) is seen by closest friends and naturally rumored around in the real world. A traitor will find it difficult to enter friends based system again. Same is for the group leaders. Everyone is incentivezed to admit only trusted people. The hierarchy of groups will reflect the real-world reputation. 
+**Upala built in Branches**
 
-*State ID based branch*
-Such a branch could rely on group types with fixed hierarchy levels. A user is allowed to join only a city-level group. City-level group joins region-level group. Then come country-level and world-level. Every level with its own entering rules, governance and incentives models. 
+We can go further and build **whole identity systems** combining groups with similar properties. These systems can start as independent **branches** (that's how we call them). And then merge due to protocol compatibility. Here are a couple of example branches:
+
+*Friends based branch.* Friends join groups. Groups of friends join larger groups. And so on. Groups of groups will probably form around leaders. A betrayal (bot explosion) is seen by closest friends and naturally rumored around in the real world. A traitor will find it difficult to enter friends based system again. Same is for the group leaders. Everyone is incentivezed to admit only trusted people. The hierarchy of groups will reflect the real-world reputation. 
+
+*State ID based branch*. Such a branch could rely on group types with fixed hierarchy levels. A user is allowed to join only a city-level group. City-level group joins region-level group. Then come country-level and world-level. Every level with its own entering rules, governance and incentives models. 
 
 
 **Wraps**
-Branches use Built-in Upala protol.  
+
+Branches use Built-in Upala protocol.  
 Moreover The Upala protocol may be used to wrap existing identity systems and bring them into Upala Universe as well.
 
 Wrapped in Upala protocol
@@ -114,6 +111,7 @@ Humanity DAO
 Provide lacking incentives layer
 
 **Unions**
+
 Any DApp could chose to trust several branches to score their users (remember users may want to join a number of groups). This is one way of combining branches. Another way is to create a group with branches as members. The Upala will provide compatibility. We call all groups (and consequently branches) using the protocol **the Upala Universe**!
 
 Unite different identity systems. **Layer 2 analyzer** special case
@@ -122,7 +120,9 @@ Unite different identity systems. **Layer 2 analyzer** special case
 Simple building block to build complex systems. Many network designs could be used. This is a standard to connect them all. Can create different systems. Even better it can be used to unite different systems into one. 
 
 
- or decide to merge with the Upala Universe. These systems can be used by a DApp or combined 
+or decide to merge with the Upala Universe. These systems can be used by a DApp or combined 
+
+Neither Group types nor Branches are parts of the protocol. These are just sets of **paradigms** with quite arbitrary names. These paradigms help to understand the possibilities of the protocol. And can be helpful when building on top of Upala. 
 
 Conclusion
 =============
