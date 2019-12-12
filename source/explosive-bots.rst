@@ -6,10 +6,13 @@ How Upala works
 
 Explosive bots protocol
 =======================
-Summary. The main ideas are the notions of groups and explosive bots.
-Gives quantitative measure of personhood
-High-level incentives protocol.
+No summary yet... The full description below is already readable though.
 
+..
+	The main ideas are the notions of groups and explosive bots.
+	Gives quantitative measure of personhood
+	High-level incentives protocol.
+..
 
 Groups
 ======
@@ -84,15 +87,19 @@ There is no leveling constrains per se. The hierarchy is built naturally with in
 **TCR Group**
 A group may decide to use Token curated registry to curate it's members.
 
+**Score cache**
+A group that caches user scores and saves gas on calculations. 
+
 
 Branches
-------------------
+--------
 
-It is also possible to build totally different and independent full-featured identity systems using Upala protocol. We call them **branches**.
+We can go further and build **whole identity systems** using Upala protocol. We call them **branches**. There are two flavors of branches: Upala native branches and Wraps. The whole set of projects using Upala Protocol is called **The Upala Universe**.
 
-**Upala built in Branches**
 
-We can go further and build **whole identity systems** combining groups with similar properties. These systems can start as independent **branches** (that's how we call them). And then merge due to protocol compatibility. Here are a couple of example branches:
+**Upala-native branches**
+
+This branches use Upala groups as building blocks. Upala protocol is built-in. Here are a couple of example branches:
 
 *Friends based branch.* Friends join groups. Groups of friends join larger groups. And so on. Groups of groups will probably form around leaders. A betrayal (bot explosion) is seen by closest friends and naturally rumored around in the real world. A traitor will find it difficult to enter friends based system again. Same is for the group leaders. Everyone is incentivezed to admit only trusted people. The hierarchy of groups will reflect the real-world reputation. 
 
@@ -101,26 +108,23 @@ We can go further and build **whole identity systems** combining groups with sim
 
 **Wraps**
 
-Branches use Built-in Upala protocol.  
-Moreover The Upala protocol may be used to wrap existing identity systems and bring them into Upala Universe as well.
+The Upala protocol may be used to wrap existing identity systems and bring them into Upala Universe as well. A wrap is basically a group that invites members of another system to join under some conditions. Copy is another way to think of a wrap. Members and scores are copied from an existing system into Upala group(s). Here are examples:
 
-Wrapped in Upala protocol
-Wrapping other blockchain identity systems
-Random handshakes
-Humanity DAO
-Provide lacking incentives layer
+*Humanity DAO Wrap*. Everyone in Humanity DAO are invited to join the wrap (group). The group smart contract checks if the member is really a Human (in Humanity DAO terminology) and lets them in with 100% score. It may require a fee to fill the group pool with cash. The same procedure may be used to wrap around Moloch DAO, Metacartel and other similar DAOs.
+
+*Random Handshakes Wrap*. The Random Handshakes system was proposed earlier in the Upala blog (todo). It relies on face recognition and real-world intersection of people. This whole system or its parts (i.e. based on location) can be wrapped with Upala protocol. 
+
+*Layer 2 Analyzers*. A wrap could use several systems as inputs (branches, wraps or existing non-Upala projects) and calculate user scores in a unique way. It could use some complicated off-chain graph analysis (like the one Bright ID does). 
 
 **Unions**
 
-Any DApp could chose to trust several branches to score their users (remember users may want to join a number of groups). This is one way of combining branches. Another way is to create a group with branches as members. The Upala will provide compatibility. We call all groups (and consequently branches) using the protocol **the Upala Universe**!
+A DApp could chose to trust several branches to score its users. This is one way of combining branches. But it is not very effective because every DApp is responsible of choosing the right (reputable) branches. That is to do curation work by itself. We don't want that. 
 
-Unite different identity systems. **Layer 2 analyzer** special case
-
-
-Simple building block to build complex systems. Many network designs could be used. This is a standard to connect them all. Can create different systems. Even better it can be used to unite different systems into one. 
+A better way is to create a group with branches as members. A group that will unite several identity systems (branches). Groups like this may be called Unions. A Union group may be a For Profit group and earn by charging DApps for score calculation (confirmation). 
 
 
-or decide to merge with the Upala Universe. These systems can be used by a DApp or combined 
+Group types and branches are just paradigms
+-------------------------------------------
 
 Neither Group types nor Branches are parts of the protocol. These are just sets of **paradigms** with quite arbitrary names. These paradigms help to understand the possibilities of the protocol. And can be helpful when building on top of Upala. 
 

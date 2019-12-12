@@ -1,17 +1,23 @@
-============================
-How to build on top of upala
-============================
-Links for digital identity enthusiasts. I use this document as personal archive and read-later list. I thought it isworth publishing. It is good source of quality info on digital identity and related topics. 
-
-Inspiration
-===========
-This section is the collection of our thoughts and insights on antiSybil protection and links to other people's work. This place is for those who is building their own identity system. 
-
-If you are one of them, please consider using Upala as a 
+==================
+Anti-Sybil academy
+==================
 
 **WARNING!**
 
-This document is under construction. Upala insights are on the way here. Please come back in a couple of weeks.
+This document is under construction. Upala insights are on the way...
+
+..
+	Inspiration
+	===========
+	Blade runners academy
+
+	This section is the collection of our thoughts and insights on antiSybil protection and links to other people's work. This place is for those who is building their own identity system. 
+
+	If you are one of them, please consider using Upala as a base for your system.
+
+	State of knowledge 
+..
+
 
 Basics of digital identity
 ==========================
@@ -40,52 +46,53 @@ Imagine two situations:
 Here Isabel is performing a sibyl attack. We need to “punish” Isabel and “reward” Alice and Bob.
 
 
+..
+	Examples
+	========
+	**The sibyl attack problem solution**
 
-Examples
-========
-**The sibyl attack problem solution**
+	Sybils are detected at the entrance to the system. 
 
-Sybils are detected at the entrance to the system. 
+	Components:
 
-Components:
+	- Upala smart-phone app
+	- Face recognition server
+	- FOAM’s proof of location service
 
-- Upala smart-phone app
-- Face recognition server
-- FOAM’s proof of location service
+	Registering a new user:
 
-Registering a new user:
+	1. Take a picture of a registering user using Upala app
+	2. Detect twins with face-recognition algorithm
+	3. If twins are detected they need to take selfies simultaneously in different places (proof of location)
+	4. Random validators confirm that the new selfies depict the same people as their ID photos
 
-1. Take a picture of a registering user using Upala app
-2. Detect twins with face-recognition algorithm
-3. If twins are detected they need to take selfies simultaneously in different places (proof of location)
-4. Random validators confirm that the new selfies depict the same people as their ID photos
+	The solution is described in detail `this blog post <https://medium.com/six-degrees-of-separation/a-solution-to-sibyl-attack-problem-for-upala-identity-proof-system-ca924202ab8f>`_ . Which is still a draft though. The final solution will be added as a separate section to this documentation.
 
-The solution is described in detail `this blog post <https://medium.com/six-degrees-of-separation/a-solution-to-sibyl-attack-problem-for-upala-identity-proof-system-ca924202ab8f>`_ . Which is still a draft though. The final solution will be added as a separate section to this documentation.
+	**Proof of location using known landmarks**
 
-**Proof of location using known landmarks**
+	Known landmarks can be used to confirm location until FOAM is released. Registering a new user or confirming a twin will require putting an object available through Google street view on the background. Validators confirm landmarks on photos.
 
-Known landmarks can be used to confirm location until FOAM is released. Registering a new user or confirming a twin will require putting an object available through Google street view on the background. Validators confirm landmarks on photos.
+	**Starting communities independently**
 
-**Starting communities independently**
+	The presented sibyl attack protection mechanism provides an additional benefit. It allows starting communities independently in different parts of the world. Clusters of people don’t need to be intersected to trust each other.
 
-The presented sibyl attack protection mechanism provides an additional benefit. It allows starting communities independently in different parts of the world. Clusters of people don’t need to be intersected to trust each other.
+	Account recovery
+	----------------
 
-Account recovery
-----------------
+	It does matter who you are, where you are and who you friends with. The 3 unique features are used to identify a person: face, location and friends. What if you want to recover your account:
 
-It does matter who you are, where you are and who you friends with. The 3 unique features are used to identify a person: face, location and friends. What if you want to recover your account:
+	1. Search the account. Take a selfie with the Upala app.
+	2. Select the one which belongs to you. You can't see any photos or names. Type your real name to select your account.
+	3. Meet with some of your friends physically (with location proof) to unlock your account.
 
-1. Search the account. Take a selfie with the Upala app.
-2. Select the one which belongs to you. You can't see any photos or names. Type your real name to select your account.
-3. Meet with some of your friends physically (with location proof) to unlock your account.
-
-Account recovery process is another incentive to connect (within the system) with trustworthy friends.
+	Account recovery process is another incentive to connect (within the system) with trustworthy friends.
+..
 
 
+Projects and papers
+===================
 
-Antisybil games (State of knowledge)
-====================================
-
+Links for digital identity enthusiasts. I use this document as personal archive and read-later list. I thought it isworth publishing. It is good source of quality info on digital identity and related topics. 
 
 Identity projects
 -----------------

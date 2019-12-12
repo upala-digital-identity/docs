@@ -32,8 +32,8 @@ Links:
 
 .. - Join mailing list (todo)
 
-Donate:
-=======
+Donations:
+==========
 - `Buy ads <https://themillionetherhomepage.com/>`_ (help Upala and charity)
 - `Ethereum <https://etherscan.io/address/0xddB1CB4EdBCD83066Abf26E7102dc0e88009DEAB>`_
 - `Bitcoin <https://blockexplorer.com/address/3K4FSqxS5cygY969L1xz6a2DZCqfTTNxQk>`_
