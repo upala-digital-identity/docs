@@ -1,5 +1,5 @@
 =======================
-EXPLOSIVE BOTS PROTOCOL
+Explosive bots protocol
 =======================
 
 How Upala works
@@ -41,6 +41,7 @@ The only thing which is necessary is to follow the **bot explosion rules**. That
 
 The rest is out of protocol. However it is the strength of the system. It shows how Upala can unite different systems. 
 
+.. A group may chose any currency as long as it can pay bot reward in DAI. There is a penalty for not doing so. 
 
 Incentive and governance 
 ========================
@@ -62,35 +63,40 @@ A group can pay to its members or to charge them. It can issue a token or it can
 
 Paradigms
 =========
-With arbitrary incentives and governance models and freedom of options it is possible to build groups with very different properties. Thus groups can bear different roles within the system. We refer to groups with similar properties as **Group types**. 
+Due to the freedom of options it is possible to build groups with very different properties. Thus groups can bear different roles within the system. We refer to groups with similar properties as **Group types**. 
 
-It is also possible to build totally different and independent full-featured identity systems using Upala protocol. We call them **Universes**.
+It is also possible to build totally different and independent full-featured identity systems using Upala protocol. We call them **Branches**.
 
-Neither Group types nor Universes are parts of the protocol. These are just paradigms with quite arbitrary names to describe what is possible to build with such a simple building block as a group. A whole range of possibilities can be achieved by utilizing a concept of group types.
+Neither Group types nor Branches are parts of the protocol. These are just sets of paradigms with quite arbitrary names. These paradigms help to understand the possibilities of the protocol. And can be helpful when building on top of Upala. 
 
 Group types
 -----------
-**Buffer**
-(Support of developing countries)
+**Score provider**
+A group may or may not provide access to user scores. Some groups may decide to charge users or DApss for the information. 
+
+**For profit**
+A group may decide to be profitable (or at least try). Such a group may "tend" to earn from users (through entrance fees or score calculation commission) or from DApps.
 
 **Bank with benefits**
-(Support of developing countries)
+Groups requiring an entrance fee may decide to hold their pool in a decentralized bank (like Compound). Members of such groups will receive interest on their fee. Plus a uniqueness score (benefit). A feature like this does not mitigate the risk of bot attack, however it could speed up onborading.
 
-**Curator**
-A group may or may not provide access to user scores. It may chose that gives access to scores. Ivitation - payment from top. 
+**Buffer**
+A philanthropist may decide to bring a group with a small pool and small bot reward into a more expensive group. This person is then bears a part of bot attack ricks having nothing in return. This way buffer groups can be created to **help bring developing countries** into high level expensive groups.
 
 **Groups with Fixed Hierarchy Levels**
-There is no level per se. The hierarchy is built with the right initiatives. But one can create a group which allows subgroups of particular type.
+There is no leveling constrains per se. The hierarchy is built naturally with initiatives. But one can create a group which allows only subgroups of particular type to be included as members. A group like this could become a building block of a state ID based identity system (described a little further).
 
 **TCR Groups**
-These are just a couple of examples of what
+A group may decide to use Token curated registry to curate it's members.
 
 
-Universes
----------
-Convenient to derive different hierarchies (systems).
-A branch in the hierarchy with certain common properties can from a Universe. 
-Allows to be a cross standard to unite different systems. Though this little constrain let build and unite a verity of different systems.
+Branches
+--------
+We can go further and build whole identity systems combining groups with similar properties. These systems can start as independent **branches**. Any DApp could  
+
+ or decide to merge with the Upala Universe. The Upala will provide compatibility. These systems can be used by a DApp or combined 
+
+Moreover The Upala protocol may be used to wrap existing identity systems and bring them into Upala Universe as well. 
 
 **Build**
 Built-in Upala protol

@@ -58,7 +58,12 @@ Upala is a Game-based blockchain-powered personhood scoring system
 ------------------------------------------------------------------
 It just happens so that blockchain is the perfect solution to use as a platform to build Upala on. Upala is blockchain agnostic. It is a game which can be powered by almost any blockchain supporting smart contracts. 
 
+Design philosophy
+-----------------
 
+- Protect bot rights
+- Maximum freedom of choice
+- Cryptoeconomic constrains instead of code constrains
 
 ..Issued ID
 ..Defacto ID
