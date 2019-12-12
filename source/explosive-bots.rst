@@ -39,7 +39,7 @@ A User is an Ethereum address or a wallet.
 
 The only thing which is necessary is to follow the **bot explosion rules**. That is a group is supposed to maintain a pool, bot explosion reward and member scores, bot explosion feature and exit feature are the only necessary parameters of a group. The rest is optional. There is no token economy and no governance model.
 
-The rest is out of protocol. However it is the strength of the system. It shows how Upala can unite different systems. 
+That's it! **The rest is out of protocol.** However it is the strength of the system. It shows how Upala can unite different systems. 
 
 .. A group may chose any currency as long as it can pay bot reward in DAI. There is a penalty for not doing so. 
 
@@ -90,34 +90,39 @@ There is no leveling constrains per se. The hierarchy is built naturally with in
 A group may decide to use Token curated registry to curate it's members.
 
 
-Branches
---------
-We can go further and build whole identity systems combining groups with similar properties. These systems can start as independent **branches**. Any DApp could  
+The Upala Universe
+------------------
 
- or decide to merge with the Upala Universe. The Upala will provide compatibility. These systems can be used by a DApp or combined 
+**Branches**
+We can go further and build whole identity systems combining groups with similar properties. These systems can start as independent **branches** (that's how we call them). And then merge due to protocol compatibility. Here are a couple of example branches.
 
-Moreover The Upala protocol may be used to wrap existing identity systems and bring them into Upala Universe as well. 
+*Friends based branch*
+Friends join groups. Groups of friends join larger groups. And so on. Groups of groups will probably form around leaders. A betrayal (bot explosion) is seen by closest friends and naturally rumored around in the real world. A traitor will find it difficult to enter friends based system again. Same is for the group leaders. Everyone is incentivezed to admit only trusted people. The hierarchy of groups will reflect the real-world reputation. 
 
-**Build**
-Built-in Upala protol
-Friends
-State ID based system
-A group of types may emerge. For State issued ID there may be types as follows. A city group type may accept only user as members. A group of type region accepts only cities, a country type accepts only 
+*State ID based branch*
+Such a branch could rely on group types with fixed hierarchy levels. A user is allowed to join only a city-level group. City-level group joins region-level group. Then come country-level and world-level. Every level with its own entering rules, governance and incentives models. 
 
-**Wrap**
+
+**Wraps**
+Branches use Built-in Upala protol.  
+Moreover The Upala protocol may be used to wrap existing identity systems and bring them into Upala Universe as well.
+
 Wrapped in Upala protocol
 Wrapping other blockchain identity systems
 Random handshakes
 Humanity DAO
 Provide lacking incentives layer
 
-**Unite**
+**Unions**
+Any DApp could chose to trust several branches to score their users (remember users may want to join a number of groups). This is one way of combining branches. Another way is to create a group with branches as members. The Upala will provide compatibility. We call all groups (and consequently branches) using the protocol **the Upala Universe**!
+
 Unite different identity systems. **Layer 2 analyzer** special case
 
 
 Simple building block to build complex systems. Many network designs could be used. This is a standard to connect them all. Can create different systems. Even better it can be used to unite different systems into one. 
 
 
+ or decide to merge with the Upala Universe. These systems can be used by a DApp or combined 
 
 Conclusion
 =============
