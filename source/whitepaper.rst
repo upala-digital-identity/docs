@@ -5,8 +5,8 @@ What is Upala
 **Greetings human!**
 
 
-Upala proof of uniqeness
-========================
+Upala proof of uniqueness
+========================+
 Upala is a proof of uniqueness system. One person — one ID.
 
 The protocol and the Universe
@@ -27,7 +27,7 @@ Design philosophy
 - Cryptoeconomic constrains instead of code constrains
 
 
-**Sorry, human, the rest of the page is under construction.** More info soon. For now have a look at :ref:`how Upala works<bots>`.
+**Sorry, human, the rest of the page is under construction.** More info soon. For now, have a look at :ref:`how Upala works<bots>`.
 
 .. BrightID Quote "Social identity network of unique humans. allows people to prove to applications that they're only using one account."
 
