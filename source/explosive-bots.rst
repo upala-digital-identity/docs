@@ -4,8 +4,8 @@ How Upala works
 
 .. _bots:
 
-Summary
-=======
+Abstract
+========
 Upala helps to calculate uniqueness scores for users.
 
 The main idea is the notion of bot reward. It is an amount of money that any user can run away with. The money is collected by all participants. So everybody is incentivized to allow only trusted members. The bot reward is a **kind of stake**. Together with the number of users, it signals the quality of each participant. 
@@ -80,7 +80,7 @@ Group types
 **Score provider.**
 A group may or may not provide access to user scores. Some groups may decide to charge users or DApss for the information. 
 
-**For profit.**
+**For-profit.**
 A group may decide to be profitable (or at least try to). Such a group may "tend" to earn from users (through entrance fees) or DApps (score calculation commission).
 
 **Bank with benefits.**
@@ -90,7 +90,7 @@ Groups requiring an entrance fee may decide to hold their pool in a bank (like C
 A philanthropist may decide to bring a group with a small pool and small bot reward into a more expensive group. This person then bears a part of bot attack risks having nothing in return. This way buffer groups can be created to **help bring developing countries** into high-level expensive groups.
 
 **Groups with Fixed Hierarchy Levels.**
-There is no leveling constraints per se. The hierarchy is built naturally with initiatives. But one can create a group which allows only subgroups of a particular type to be included as members. A group like this could become a building block of a state ID based identity system (described a little further).
+There are no leveling constraints per se. The hierarchy is built naturally with initiatives. But one can create a group that allows only subgroups of a particular type to be included as members. A group like this could become a building block of a state ID based identity system (described a little further).
 
 **TCR Group.**
 A group may decide to use a Token curated registry to curate its members.
