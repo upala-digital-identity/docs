@@ -6,7 +6,7 @@ What is Upala
 
 
 Upala proof of uniqueness
-========================+
+=========================
 Upala is a proof of uniqueness system. One person — one ID.
 
 The protocol and the Universe

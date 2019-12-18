@@ -33,6 +33,7 @@ The process of group creation is completely decentralized. The hierarchy grows n
 
 A DApp may decide to trust any group and estimate user scores relative to that group. A DApp may choose a number of groups to trust. 
 
+.. image:: /img/groups-1.jpg
 
 Explosive bots
 ==============
@@ -44,10 +45,11 @@ If Alice decides to attack group C, that would also affect groups B and A.
 
 A user performing such an attack is considered a bot. A bot is effectively stealing from other users because the value of their shares drops. Presumably, there is no way for this same user remains friends with. The act of stealing is immediately followed by self-destruction. Thus the name exploding bots. 
 
+.. image:: /img/bots-1.jpg
 
 The Upala Protocol (bot explosion protocol)
 ===========================================
-Users may be represented by simple Ethereum addresses or wallets. Groups are Ethereum smart contracts inherited from the Upala Protocol contract (shamefully raw code is `here <https://github.com/porobov/upala/blob/master/incentives/group-example.sol>`_).
+Users may be represented by simple Ethereum addresses or wallets. Groups are Ethereum smart contracts inherited from the Upala Protocol contract (shamefully raw code is `here <https://github.com/porobov/upala>`_).
 
 The contract defines **bot explosion rules** - the only rules necessary for compatibility with other contracts:
 
