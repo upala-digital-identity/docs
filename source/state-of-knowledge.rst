@@ -112,6 +112,7 @@ Uniqeness, trust
 - https://www.humanitydao.org/ - voting for a new member
 - https://www.objectivemoney.org/ - voting for a new member
 - `POAP <https://www.poap.xyz/>`_ - The Proof of Attendance Protocol. Allows humans to collect badges in the form of non fungible tokens every time they participate in an activity, in person or remotely.
+- `UBIC <https://github.com/UBIC-repo/Whitepaper/>`_ -  Universal Basic Income Currency. Sybil-resistance is based on modern E-Passports. Users join by scanning E-Passport via NFC.
 
 Storage and access 
 ''''''''''''''''''
@@ -227,6 +228,10 @@ Password storage, Decentralized file access control
 Other 
 '''''
 - `Pseudonym_Parties <https://www.researchgate.net/publication/242162818_Pseudonym_Parties_An_Offline_Foundation_for_Online_Accountability_PRELIMINARY_DRAFT>`_
+- `Verifying Identity as a Social Intersection <https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3375436>`_
+
+
+
 
 Bonding Curves todo
 - https://docs.google.com/document/d/1VNkBjjGhcZUV9CyC0ccWYbqeOoVKT2maqX0rK3yXB20/edit - by Simon 
