@@ -16,6 +16,8 @@ Upala is a protocol and everything built with it.
 
 **The Upala protocol** (:ref:`Explosive bots protocol<bots>`) is a simple incentives layer protocol that helps build different identity systems. It also helps to unite Upala native systems as well as existing identity systems (by wrapping Upala around them) under the same identity standard.
 
+.. Groups and explosive bots. Groups form hierarchy based on trust. any group can show a user score relative to that group. And most importantly an Upala group shows price for which a user can immediately sell their identity. This price and the amount of users united by the group signals the group quality.
+
 **Upala Universe** (:ref:`link<universe>`) is everything built on top of or wrapped with the Upala Protocol.
 
 
@@ -29,12 +31,17 @@ Design philosophy
 
 **Sorry, human, the rest of the page is under construction.** More info soon. For now, have a look at :ref:`how Upala works<bots>`.
 
+
 .. BrightID Quote "Social identity network of unique humans. allows people to prove to applications that they're only using one account."
 
 ..
 	What is Upala
 	-------------
+	how much is it worth.
 	
+	Collective responsibility. 
+
+
 	Upala is here to help us spot bots among us! 
 
 	We often refer to Upala as a digital identity system. But there are a myriad of them in the wild. The following is the explanation of Upala unique position among other systems. 
