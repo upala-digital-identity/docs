@@ -138,7 +138,8 @@ Recovery
 ''''''''
 
 - keybase
-- gnosis safe 
+- gnosis safe - wallet
+- `Argent <https://www.argent.xyz/>`_ - wallet
 - `ZeroPass <https://www.zeropass.io/schematics>`_ - recovery based on key splitting. is building a decentralized solution. ZeroPass is building a decentralized password manager.
 - `You <https://devpost.com/software/you-k1cb2g>`_ - You are the password. Decentralized password manager. Uses Phone to login.
 - https://securekey.com/ - funded by world bank
