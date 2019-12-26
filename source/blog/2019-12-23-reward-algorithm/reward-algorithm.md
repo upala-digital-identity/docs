@@ -34,6 +34,9 @@
 ## spam-free
 ## everybody pays
 
+
+
+
 # Примеры
 ## Алгоритм 1. Максимальные выплаты сверху.
 ## +invite-free, +buffer, +0-payment, +short
@@ -79,7 +82,7 @@ MaxBotReward определяет надбавку текущей группы. 
 ## +everybody pays
 ##
 
-
+Берем maxBotReward * score и распределяем его по всей цепочке пропорционально maxBotReward в каждой группе. 
 
 
 

@@ -226,11 +226,11 @@ Password storage, Decentralized file access control
 - `Blockchain-Based, Decentralized Access Control for IPFS <https://www.researchgate.net/publication/327034734_Blockchain-Based_Decentralized_Access_Control_for_IPFS>`_
 - `Blockchain Based Access Control <https://www.iit.cnr.it/sites/default/files/main_21.pdf>`_
 
-Other 
+Decentralized unique identity 
 '''''
 - `Pseudonym_Parties <https://www.researchgate.net/publication/242162818_Pseudonym_Parties_An_Offline_Foundation_for_Online_Accountability_PRELIMINARY_DRAFT>`_
-- `Verifying Identity as a Social Intersection <https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3375436>`_
-
+- `Verifying Identity as a Social Intersection <https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3375436>`_ 
+- `UniqueID Decentralized Proof-of-Unique-Human <https://arxiv.org/pdf/1806.07583.pdf>`_ - survey of decentralized identity systems
 
 
 

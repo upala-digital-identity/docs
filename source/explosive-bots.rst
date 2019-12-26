@@ -6,7 +6,7 @@ How Upala works
 
 Abstract
 ========
-Upala helps to calculate uniqueness scores for users.
+Upala calculates uniqueness scores for users.
 
 The main idea is the notion of bot reward. It is an amount of money that any user can run away with. The money is collected by all participants. So everybody is incentivized to allow only trusted members. The bot reward is a **kind of stake**. Together with the number of users, it signals the quality of each participant. 
 
