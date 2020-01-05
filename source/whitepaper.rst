@@ -1,24 +1,56 @@
-========================
+=============
 What is Upala
-========================
+=============
 
-**Greetings human!**
+**Greetings human!** 
+
+.. Upala is here to help you spot bots!
 
 
-Upala proof of uniqueness
-=========================
-Upala is a proof of uniqueness system. One person — one ID.
+Price of personhood
+===========================
 
-The protocol and the Universe
+.. Upala is a proof of uniqueness system. One person — one ID.
+.. human uniqueness scoring system
+.. identity uniqueness scoring protocol 
+.. identity uniqueness staking protocol
+.. identity uniqueness pricing protocol
+.. price of person-hood protocol 
+
+.. unique identity provider
+.. unique identity system
+.. unique identity scoring protocol 
+.. identity uniqueness scoring system
+.. unique digital identity 
+.. weighted digital identity 
+.. staked digital identity
+.. digital identity staking protocol
+.. digital identity scoring protocol
+.. digital identity uniqueness protocol
+.. trust staking protocol
+.. Game-based blockchain-powered person-hood pricing system
+
+
+Upala provides a **digital identity uniqueness score**. The score is represented by a price for which an identity can be sold at any time. The higher the price the more the ID owner values it, the safer it is to interact with.
+
+
+The Protocol and the Universe
 =============================
 
 Upala is a protocol and everything built with it. 
 
-**The Upala protocol** (:ref:`Explosive bots protocol<bots>`) is a simple incentives layer protocol that helps build different identity systems. It also helps to unite Upala native systems as well as existing identity systems (by wrapping Upala around them) under the same identity standard.
+Rather than building a single system, we developed a digital identity scoring protocol. We use the protocol to build a family of unique identity systems, wrap around existing ones and provide tools for other developers to build their own unique identity solutions. The protocol unites different identity systems under the same scoring standard.
+
+.. The protocol is built around idea of explosive bots. The explosion is made in expense of others. So everyone is incentivized to allow only trusted members to their groups 
+
+.. The protocol utilizes social responsibility concept. 
+.. how it works. Shared (social) responsibility. Within a group One has to invite only trusted members. Otherwise a neighbour may explode. The same applies for groups. If a group joins a superior group it means it trusts all other groups in it.
 
 .. Groups and explosive bots. Groups form hierarchy based on trust. any group can show a user score relative to that group. And most importantly an Upala group shows price for which a user can immediately sell their identity. This price and the amount of users united by the group signals the group quality.
 
-**Upala Universe** (:ref:`link<universe>`) is everything built on top of or wrapped with the Upala Protocol.
+**The Upala protocol** (:ref:`Explosive bots protocol<bots>`) is a simple incentive layer that helps build different identity systems. It also helps to unite Upala-native identity systems and existing ones (by wrapping Upala around them) under the same identity standard.
+
+**Upala Universe** is everything built on top of or wrapped with the Upala Protocol.
 
 
 Design philosophy
@@ -26,60 +58,9 @@ Design philosophy
 
 - Protect bots rights
 - Everything which is not forbidden is allowed
-- Cryptoeconomic constrains instead of code constrains
+- Crypto-economic constrains instead of code constrains
 
 
-**Sorry, human, the rest of the page is under construction.** More info soon. For now, have a look at :ref:`how Upala works<bots>`.
+Next, human, have a look at :ref:`how Upala works<bots>`.
 
-
-.. BrightID Quote "Social identity network of unique humans. allows people to prove to applications that they're only using one account."
-
-..
-	What is Upala
-	-------------
-	how much is it worth.
-	
-	Collective responsibility. 
-
-
-	Upala is here to help us spot bots among us! 
-
-	We often refer to Upala as a digital identity system. But there are a myriad of them in the wild. The following is the explanation of Upala unique position among other systems. 
-
-	What Upala isn't
-	----------------
-	**Upala is not (just) an identity storage solution**
-	**Upala is not a hypothetic ideal digital identity**
-
-	Upala is a personhood scoring system
-	------------------------------------
-	The system answers the question - how likely (in percent) this entity (address) is a real human. A more detailed question is here (todo - The real question is  )
-	 ... which is theoretically could be even better than an issued identity (explained here todo)
-	Game-based blockchain-powered personhood scoring system. Helps to distinguish humans from bots.
-
-	The same goal as CAPTCHA.
-
-	First, we distinguish identity storage solutions and
-
-
-	There are still a set of personhood scoring system in the blockchain space. Here 
-
-	Upala is a standard and a set of different identity systems united by the standard. 
-
-	Upala is a Game-based personhood scoring system
-	-----------------------------------------------
-
-
-	Upala is a Game-based blockchain-powered personhood scoring system
-	------------------------------------------------------------------
-	It just happens so that blockchain is the perfect solution to use as a platform to build Upala on. Upala is blockchain agnostic. It is a game which can be powered by almost any blockchain supporting smart contracts.
-
-	Issued identity
-	Defacto ID
-	Self-asserted ID
-	Disclosure on demand. Decide which pieces of information to share.
-	Friends recover each other's accounts. 
-..
-
-
-
+.. The following is the explanation of Upala unique position among other digital identity systems. 
