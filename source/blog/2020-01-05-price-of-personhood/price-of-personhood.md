@@ -45,3 +45,9 @@ Diveri
     Self-asserted ID
     Disclosure on demand. Decide which pieces of information to share.
     Friends recover each other's accounts. 
+
+
+
+# What is this price
+
+The price represents how hard it is to get the same level of reputation again. If one sells thier ID, they'd have to get it again (if the system works). 
