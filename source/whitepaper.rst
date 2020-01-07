@@ -33,15 +33,17 @@ Price of personhood
 
 Upala provides a **digital identity uniqueness score**. The score is represented by a price for which an identity can be sold at any time. The higher the price the more the ID owner values it, the safer it is to interact with.
 
+**Upala is a protocol and everything built with it.** 
+
+Rather than building a single system, we developed a digital identity scoring protocol. We use the protocol to build a family of unique identity systems, wrap around existing ones and provide tools for other developers to build their own unique identity solutions. The protocol **unites different identity systems under the same scoring standard**.
 
 The Protocol and the Universe
 =============================
 
-Upala is a protocol and everything built with it. 
+The main idea of the protocol is the notion of bot reward. It is an amount of money that any user can run away with. The money is collected by all participants. So everybody is incentivized to allow only trusted members. The bot reward is a **kind of stake**. Together with the number of users, it signals the quality of each participant. 
 
-Rather than building a single system, we developed a digital identity scoring protocol. We use the protocol to build a family of unique identity systems, wrap around existing ones and provide tools for other developers to build their own unique identity solutions. The protocol unites different identity systems under the same scoring standard.
+Users join groups. Groups join larger groups (groups of groups). Larger groups join even larger groups. And so on. This creates a hierarchy with massive groups at the top and users at the bottom. DApps can request users' scores from any group. 
 
-.. The protocol is built around idea of explosive bots. The explosion is made in expense of others. So everyone is incentivized to allow only trusted members to their groups 
 
 .. The protocol utilizes social responsibility concept. 
 .. how it works. Shared (social) responsibility. Within a group One has to invite only trusted members. Otherwise a neighbour may explode. The same applies for groups. If a group joins a superior group it means it trusts all other groups in it.

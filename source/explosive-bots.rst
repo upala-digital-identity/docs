@@ -4,14 +4,6 @@ How Upala works
 
 .. _bots:
 
-Abstract
-========
-Upala calculates uniqueness scores for users.
-
-The main idea is the notion of bot reward. It is an amount of money that any user can run away with. The money is collected by all participants. So everybody is incentivized to allow only trusted members. The bot reward is a **kind of stake**. Together with the number of users, it signals the quality of each participant. 
-
-Groups and groups of groups create a hierarchy. 
-
 
 Groups
 ======
@@ -37,7 +29,7 @@ A DApp may decide to trust any group and estimate user scores relative to that g
 
 Explosive bots
 ==============
-Every group has a pool of money (presumably DAI). Every group member has a share in the group's pool (not necessary, simplified here).
+Every group has a pool of money (DAI). Every group member has a share in the group's pool (not necessary, simplified here).
 
 Every user has an option to attack any group. That is to steal a portion of the group's pool. The amount of theft depends on the user score in that group. The attack affects all groups along the path from the user to the attacked group.
 
@@ -47,9 +39,13 @@ A user performing such an attack is considered a bot. A bot is effectively steal
 
 .. image:: /img/bots-1.jpg
 
+Pools and Upala Timer
+=====================
+Changes to the group pool, users' scores and anything that may affect bot reward are delayed. The delay prevents group owners from front-running bot attacks. The delay also allows for bot-net attacks. 
+
 The Upala Protocol (bot explosion protocol)
 ===========================================
-Users may be represented by simple Ethereum addresses or wallets. Groups are Ethereum smart contracts inherited from the Upala Protocol contract (shamefully raw code is `here <https://github.com/porobov/upala>`_).
+Users may be represented by simple Ethereum addresses or wallets. Groups are Ethereum smart contracts using Upala Protocol (experimental code is `here <https://github.com/porobov/upala/tree/master/contracts/>`_).
 
 The contract defines **bot explosion rules** - the only rules necessary for compatibility with other contracts:
 
