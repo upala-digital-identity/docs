@@ -6,6 +6,18 @@ What is Upala
 
 .. Upala is here to help you spot bots!
 
+Upala at a glance
+=================
+
+- Provides digital identity uniquness score in dollars (Price of Personhood).
+- Utilized social responsibility concept ("Watch who you add to the system, otherwise your money and reputation is at risk").
+- Hierarchical Social graph on-chain, built on groups.
+- Simple off-chain graph analysis, on-chain proof, deterministic score.
+- Upala is a protocol. Enables to build different identity systems with shared user scoring standard. 
+- Can be used to wrap over existing systems (Bright ID, Humanity DAO, Idena) and unite them.
+
+Panvala Grantee (Batch 3, Sep' 2019).
+Code - https://github.com/porobov/upala/tree/master/contracts.
 
 Price of personhood
 ===========================
