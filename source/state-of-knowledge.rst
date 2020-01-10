@@ -227,7 +227,7 @@ Password storage, Decentralized file access control
 - `Blockchain Based Access Control <https://www.iit.cnr.it/sites/default/files/main_21.pdf>`_
 
 Decentralized unique identity 
-'''''
+'''''''''''''''''''''''''''''
 - `Pseudonym_Parties <https://www.researchgate.net/publication/242162818_Pseudonym_Parties_An_Offline_Foundation_for_Online_Accountability_PRELIMINARY_DRAFT>`_
 - `Verifying Identity as a Social Intersection <https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3375436>`_ 
 - `UniqueID Decentralized Proof-of-Unique-Human <https://arxiv.org/pdf/1806.07583.pdf>`_ - survey of decentralized identity systems
@@ -238,3 +238,5 @@ Bonding Curves todo
 - https://docs.google.com/document/d/1VNkBjjGhcZUV9CyC0ccWYbqeOoVKT2maqX0rK3yXB20/edit - by Simon 
 - Bonding Curves https://yos.io/2018/11/10/bonding-curves/
 - Bonding Curves https://medium.com/thoughtchains/on-single-bonding-curves-for-continuous-token-models-a167f5ffef89
+
+.. include:: ./footer.rst
