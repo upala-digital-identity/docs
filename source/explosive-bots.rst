@@ -180,3 +180,5 @@ How exactly the bot reward is shared among the members of the attack path
 What if a group combines say two lower groups. A user has a score in those groups. How is the score combined? Best score? Then there is another thing to consider when joining a top level group - are there any "higher score" groups so that adding a group giving lower scores is suicidal for the lower group.
 
 **Tokens** Native token: Eth, dai, own token? Burn tokens for bot explosion. A way for each group to have it's own token (e.g. hard-coded penalty for braking bot reward obligations)
+
+.. include:: ./footer.rst

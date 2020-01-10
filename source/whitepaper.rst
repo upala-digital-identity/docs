@@ -49,12 +49,13 @@ Price of personhood
 
 Upala provides a **digital identity uniqueness score**. The score is represented by a price for which an identity can be sold at any time. The higher the price the more the ID owner values it, the safer it is to interact with.
 
-**Upala is a protocol and everything built with it.** 
-
-Rather than building a single system, we developed a digital identity scoring protocol. We use the protocol to build a family of unique identity systems, wrap around existing ones and provide tools for other developers to build their own unique identity solutions. The protocol **unites different identity systems under the same scoring standard**.
 
 The Protocol and the Universe
 =============================
+
+**Upala is a protocol and everything built with it.** 
+
+Rather than building a single system, we developed a digital identity scoring protocol. We use the protocol to build a family of unique identity systems, wrap around existing ones and provide tools for other developers to build their own unique identity solutions. The protocol **unites different identity systems under the same scoring standard**.
 
 The main idea of the protocol is the notion of bot reward. It is an amount of money that any user can run away with. The money is collected by all participants. So everybody is incentivized to allow only trusted members. The bot reward is a **kind of stake**. It signals the quality of a participant. 
 
@@ -82,3 +83,5 @@ Design philosophy
 **Next, human, have a look at** :ref:`how Upala works<bots>`.
 
 .. The following is the explanation of Upala unique position among other digital identity systems. 
+
+.. include:: ./footer.rst
