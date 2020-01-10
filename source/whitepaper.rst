@@ -9,18 +9,22 @@ What is Upala
 Upala at a glance
 =================
 
-- Provides digital identity uniquness score in dollars (Price of Personhood).
-- Utilized social responsibility concept ("Watch who you add to the system, otherwise your money and reputation is at risk").
-- Hierarchical Social graph on-chain, built on groups.
-- Simple off-chain graph analysis, on-chain proof, deterministic score.
-- Upala is a protocol. Enables to build different identity systems with shared user scoring standard. 
-- Can be used to wrap over existing systems (Bright ID, Humanity DAO, Idena) and unite them.
+- Provides a digital identity uniqueness score. In dollars (Price of Person-hood).
+- Utilizes the social responsibility concept ("Invite only trusted members, or lose your money and reputation").
+- Hierarchical social graph. Built with groups. Stored on-chain.
+- Simple off-chain graph analysis and on-chain proofs.
+- Upala is a protocol. It enables to build different identity systems united under the same scoring standard. 
+- The protocol can wrap over existing systems (Bright ID, Humanity DAO, Idena) and unite them.
 
-Panvala Grantee (Batch 3, Sep' 2019).
-Code - https://github.com/porobov/upala/tree/master/contracts.
+
+Panvala grantee (Batch 3, Sep' 2019).
+
+`View Upala on Github <https://github.com/porobov/upala/tree/master/contracts>`_
 
 Price of personhood
 ===========================
+
+.. Price-of-personhood digital identity. 
 
 .. Upala is a proof of uniqueness system. One person — one ID.
 .. human uniqueness scoring system
@@ -52,7 +56,7 @@ Rather than building a single system, we developed a digital identity scoring pr
 The Protocol and the Universe
 =============================
 
-The main idea of the protocol is the notion of bot reward. It is an amount of money that any user can run away with. The money is collected by all participants. So everybody is incentivized to allow only trusted members. The bot reward is a **kind of stake**. Together with the number of users, it signals the quality of each participant. 
+The main idea of the protocol is the notion of bot reward. It is an amount of money that any user can run away with. The money is collected by all participants. So everybody is incentivized to allow only trusted members. The bot reward is a **kind of stake**. It signals the quality of a participant. 
 
 Users join groups. Groups join larger groups (groups of groups). Larger groups join even larger groups. And so on. This creates a hierarchy with massive groups at the top and users at the bottom. DApps can request users' scores from any group. 
 
@@ -75,6 +79,6 @@ Design philosophy
 - Crypto-economic constrains instead of code constrains
 
 
-Next, human, have a look at :ref:`how Upala works<bots>`.
+**Next, human, have a look at** :ref:`how Upala works<bots>`.
 
 .. The following is the explanation of Upala unique position among other digital identity systems. 
