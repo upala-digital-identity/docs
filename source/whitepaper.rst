@@ -79,6 +79,15 @@ Design philosophy
 - Everything which is not forbidden is allowed
 - Crypto-economic constrains instead of code constrains
 
+Roadmap
+=======
+
+- Draft 2-3 digital identity systems using Upala protocol
+- Finalize the protocol
+- Build an MVP digital identity system on top of the protocol
+- Build another digital identity system and unite it with the MVP
+- Provide tools for creating Upala-compliant identity systems
+
 
 **Next, human, have a look at** :ref:`how Upala works<bots>`.
 
