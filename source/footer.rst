@@ -2,7 +2,7 @@
 
 - `Medium Blog <https://medium.com/six-degrees-of-separation/>`_
 - `Twitter <https://twitter.com/TheUpala/>`_
-- `Telegram <https://t.me/upala_cherish_the_difference/>`_
+- `Telegram <https://t.me/cherish_the_difference_Upala>`_
 - `GitHub <https://github.com/porobov/upala>`_
 - `Reddit <https://www.reddit.com/r/SixHandshakes/>`_
 - `Edit this documentation <https://github.com/porobov/upala-docs/>`_
