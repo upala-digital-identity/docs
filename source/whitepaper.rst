@@ -49,6 +49,16 @@ Price of personhood
 
 Upala provides a **digital identity uniqueness score**. The score is represented by a price for which an identity can be sold at any time. The higher the price the more the ID owner values it, the safer it is to interact with.
 
+.. 
+	This is the price of getting an identity again. If you cheat your friends and steal money from them. You'd have to repay the debt or find other friends. Build trust there. Those with little trust are risky. They need to pay more.
+	
+	This is 
+
+	The state ID has a price too. You can forge it, use it and discard. There is a price of trust. 
+
+	The rest trust is built with reputation. 
+
+.. 
 
 The Protocol and the Universe
 =============================

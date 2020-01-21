@@ -9,7 +9,7 @@
 Upala documentation
 ===================
 
-Upala is a digital identity system. 
+Upala is a price-of-personhood digital identity system. 
 
 Pale Blue Paper
 ---------------
@@ -19,6 +19,11 @@ Pale Blue Paper
 
    whitepaper
    explosive-bots
+   universe
    state-of-knowledge
 
 .. include:: ./footer.rst
+
+**Backed by:**
+
+.. image:: /img/panvala.png
