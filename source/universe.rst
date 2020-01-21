@@ -58,6 +58,10 @@ These branches use Upala groups as building blocks. Upala protocol is built-in. 
 
 **State ID based identity system (branch)**. Such a branch could rely on group types with fixed hierarchy levels. A user is allowed to join only a city-level group. City-level group joins region-level groups. Then come country-level and world-level. Every level with its own entering rules, governance and incentive models. 
 
+**Radical ID**. Set a price for which you are willing to sell your identity to anyone willing to pay. Pay a "tax" relative to the price.
+
+**Reputation tracker**.
+Servieces (DApps) give scores to users for interactions. Services are curated via Token Curated Registries. 
 
 Wraps
 -----
@@ -116,9 +120,5 @@ A better way is to create a group with branches as members. It will unite severa
 	Можно сделать случайный выбор организации. Пусть пользователь будет обязан раз в год пройти авторизацию. 
 	Можно сделать ревизора из вышестоящих групп. 
 
-	Reputation
-	----------
-
-	Servieces give scores to users. Services are curated by curators. 
 
 ..
