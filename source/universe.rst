@@ -64,7 +64,7 @@ These branches use Upala groups as building blocks. Upala protocol is built-in. 
 Servieces (DApps) give scores to users for interactions. Services are curated via Token Curated Registries. 
 
 Wraps
------
+=====
 
 The Upala protocol may be used to wrap existing identity systems and bring them into Upala Universe as well. A wrap is basically a group that invites members of another system to join. Copy is another way to think of a wrap. Members and scores are copied from an existing system into Upala group(s). Here are examples:
 
@@ -75,7 +75,7 @@ The Upala protocol may be used to wrap existing identity systems and bring them 
 **Layer 2 Analyzers**. A wrap could use several identity systems as inputs (collect data from other branches, wraps or existing non-Upala projects) and uniquely calculate user scores. It could use some complicated off-chain graph analysis (like the one that Bright ID does).
 
 Unions
-------
+======
 
 A DApp could choose to trust several branches to get scores for its users. This is one way of combining branches. But it is not very effective because every DApp is responsible for choosing the right (reputable) branches. That is to do curation work by itself. We don't want that. 
 
