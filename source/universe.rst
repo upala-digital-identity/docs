@@ -43,20 +43,20 @@ A group may decide to use a Token curated registry to curate its members.
 A group that caches user scores and saves gas on calculations. 
 
 
-Branches
-========
+Dimensions
+==========
 
-We can go further and build **whole identity systems** using Upala protocol. We call them **branches**. There are two flavors of branches: Upala native branches and Wraps. The whole set of projects using Upala Protocol is called **The Upala Universe**.
+We can go further and build **whole identity systems** using Upala protocol. We call them **dimensions**. There are two flavors of dimensions: Upala native dimensions and Wraps. The whole set of projects using Upala Protocol is called **The Upala Universe**.
 
 
-Upala-native branches
----------------------
+Upala-native dimensions
+-----------------------
 
-These branches use Upala groups as building blocks. Upala protocol is built-in. Here are a couple of example branches:
+These dimensions use Upala groups as building blocks. Upala protocol is built-in. Here are a couple of example dimensions:
 
-**Friends based identity system (branch).** Friends join groups. Groups of friends join larger groups. And so on. Groups of groups will probably form around leaders. A betrayal (bot explosion) is seen by closest friends and naturally rumored around in the real world. A traitor will find it difficult to enter friends based system again. The same is for the group leaders. Everyone is incentivized to allow only trusted people. The hierarchy of groups will reflect the real-world reputation. 
+**Friends based identity system (dimension).** Friends join groups. Groups of friends join larger groups. And so on. Groups of groups will probably form around leaders. A betrayal (bot explosion) is seen by closest friends and naturally rumored around in the real world. A traitor will find it difficult to enter friends based system again. The same is for the group leaders. Everyone is incentivized to allow only trusted people. The hierarchy of groups will reflect the real-world reputation. 
 
-**State ID based identity system (branch)**. Such a branch could rely on group types with fixed hierarchy levels. A user is allowed to join only a city-level group. City-level group joins region-level groups. Then come country-level and world-level. Every level with its own entering rules, governance and incentive models. 
+**State ID based identity system (dimension)**. Such a dimension could rely on group types with fixed hierarchy levels. A user is allowed to join only a city-level group. City-level group joins region-level groups. Then come country-level and world-level. Every level with its own entering rules, governance and incentive models. 
 
 **Radical ID**. Set a price for which you are willing to sell your identity to anyone willing to pay. Pay a "tax" relative to the price.
 
@@ -72,18 +72,18 @@ The Upala protocol may be used to wrap existing identity systems and bring them 
 
 **Random Handshakes Wrap**. The Random Handshakes system was proposed earlier in the Upala blog (todo). It relies on face recognition and the real-world intersection of people. This whole system or its parts (i.e. based on location) can be wrapped with Upala protocol. 
 
-**Layer 2 Analyzers**. A wrap could use several identity systems as inputs (collect data from other branches, wraps or existing non-Upala projects) and uniquely calculate user scores. It could use some complicated off-chain graph analysis (like the one that Bright ID does).
+**Layer 2 Analyzers**. A wrap could use several identity systems as inputs (collect data from other dimensions, wraps or existing non-Upala projects) and uniquely calculate user scores. It could use some complicated off-chain graph analysis (like the one that Bright ID does).
 
 Unions
 ======
 
-A DApp could choose to trust several branches to get scores for its users. This is one way of combining branches. But it is not very effective because every DApp is responsible for choosing the right (reputable) branches. That is to do curation work by itself. We don't want that. 
+A DApp could choose to trust several dimensions to get scores for its users. This is one way of combining dimensions. But it is not very effective because every DApp is responsible for choosing the right (reputable) dimensions. That is to do curation work by itself. We don't want that. 
 
-A better way is to create a group with branches as members. It will unite several identity systems (branches). Groups like this may be called Unions. A Union group may be a For Profit group and earn by charging DApps for score calculation (or confirmation). 
+A better way is to create a group with dimensions as members. It will unite several identity systems (dimensions). Groups like this may be called Unions. A Union group may be a For Profit group and earn by charging DApps for score calculation (or confirmation). 
 
 .. note::
 
-	Group types and branches are just paradigms. Neither Group types nor Branches are parts of the protocol. These are just sets of **paradigms** with arbitrary names. These paradigms help to understand the possibilities of the protocol. And can be helpful when building on top of Upala. 
+	Group types and dimensions are just paradigms. Neither Group types nor Dimensions are parts of the protocol. These are just sets of **paradigms** with arbitrary names. These paradigms help to understand the possibilities of the protocol. And can be helpful when building on top of Upala. 
 
 
 .. include:: ./footer.rst
