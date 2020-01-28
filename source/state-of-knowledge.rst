@@ -113,7 +113,7 @@ Uniqeness, trust
 - https://www.objectivemoney.org/ - voting for a new member
 - `POAP <https://www.poap.xyz/>`_ - The Proof of Attendance Protocol. Allows humans to collect badges in the form of non fungible tokens every time they participate in an activity, in person or remotely.
 - `UBIC <https://github.com/UBIC-repo/Whitepaper/>`_ -  Universal Basic Income Currency. Sybil-resistance is based on modern E-Passports. Users join by scanning E-Passport via NFC.
-
+- `Replica by DemocracyEarth <https://github.com/DemocracyEarth/paper/>`_ - Quadratic voting.
 Storage and access 
 ''''''''''''''''''
 Mainly concerned with granting access to parts of identity inforamtion.

@@ -94,6 +94,8 @@ A better way is to create a group with dimensions as members. It will unite seve
 
 	Friends
 	-------
+	This is the essense of Upala. All other dimesions rely on existing identity systems or other constructs. 
+	
 
 	DAOs based
 	----------

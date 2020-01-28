@@ -1,4 +1,27 @@
-ТЗ на алготиртм.
+Let's classify
+There are two things we need to decide on: the scoring and the bot reward algorithm. These two may be connected or they may not. 
+
+Lets categorize the scoring algorithm. 
+
+maxBotReward
+1. present
+The score is MaxBotReward x PercentOfTrust
+2. not present
+The "price" of a member is the score. 
+3. maxBotReward = pool size
+The score is Pool Size x PercentOfTrust
+
+PercentOfTrust
+1. Equals or relative to stake
+2. Is set by admin. 
+
+
+# ALGORITHM REQUIREMENTS
+**Bring real world trust to Ethereum blockchain**
+
+Share risks and income. 
+
+a member with high score can enter a cheap group, but still remain high score
 
 # Обязательно:
 ## buffer
@@ -118,13 +141,20 @@ MaxBotReward определяет надбавку текущей группы. 
 Размер группы тоже не важен, потому что группа может нагенерить себе сколько угодно подгрупп. 
 
 # Для чего может быть нужен (maxReward vs no max reward)
-Сочетания скоринга и maxBotReward (или MaxAddedBotReward) дает понятный максимальный показатель. Если этого не будет, максимум будет неопределен.
+Сочетания скоринга и maxBotReward (или MaxAddedBotReward) дает понятный максимальный показатель. Если этого не будет, максимум будет неопределен. ????
+
+
+
 
 # Надбавка vs фиксированная плата
+The question is whether a super groups adds to a score, or should it just fix the cap. 
+With the fixed cap a very expensive account has no initiative to enter a cheap group. 
 
-
-
-
+**Fixed cap does not define the quality of a group**. Admins can easily set user scores to near 0. What is the necessity of using it then? Is it the pool size to user count ratio?
+                pool size
+      quality = .......... ?
+                user count
+**Pool size does not define group quality either**. Admin can create a super-identity and give high score to it. 
 
 
 
@@ -225,3 +255,46 @@ Moloch выступает как seed.
 Ну, этого и так сейчас не предусмотрено. 
 
 
+## Staking with percent of group's pool. 
+maxBotReward = Pool size
+
+Then score is the percent of the pool. 
+
+If the pool gets attacked, everybody loses money AND reputation (score).
+
+Than the question whether to use added value or fixed value answers itself. We can only create added value in a setup like this. 
+
+Now it makes sense to stake oneself. Staking like this will increase user's score and signal that the user trusts their peers. **The score is a share now.** BUT. There must be now a constraint that incentivizes users to stake higher and higher groups instead of themselves. 
+Probably no constraint needed. The higher the group, the less members it has. The more percents it can give to members. Maybe this is a constraint - share the whole pool. That means that scores are represented by shares, not percent. A new member getting a share dilutes all other shares. 
+
+
+
+## Mind where the capital comes from
+What if a group have it's own capital. Then it has power to asses it's members. **Without own capital the scores will just mirror stakes (shares).** 
+
+## Real world reputation matters?
+What if a group has a leader with real world reputation. It is in their interest to allow this leader to assign scores.
+
+**This setup will decrease bot reward with every explosion.**
+
+
+
+# Scenarios and roles
+
+What we should encourage and what discourage. 
+## Bringing capital into a group
+
+**Pool owners control scores, share fees and bear bot risks.**
+
+### A member brings capital. It means:
+- The member increases it's score (encourage or discourage?)
+- The member trusts other members (encourage)
+
+### New member brings capital 
+- Lowers risks for others (if they trust the new member)
+- Increases scores (how?)
+
+### An app brings capital to a group
+
+### Investor brings capital
+- It wants to earn with the group. The entity trusts the group, stakes on it and earns (encourage). Reward - shares from apps fees, Risk - bot attacks. Users are interested in investors to increase their scores. 
