@@ -3,7 +3,7 @@ There are two things we need to decide on: the scoring and the bot reward algori
 
 Lets categorize the scoring algorithm. 
 
-maxBotReward
+maxBotReward may be
 1. present
 The score is MaxBotReward x PercentOfTrust
 2. not present
@@ -21,7 +21,9 @@ PercentOfTrust
 
 Share risks and income. 
 
-a member with high score can enter a cheap group, but still remain high score
+- a member with high score can enter a cheap group, but still remain high score
+- initiative to deposit into a higher groups than into own one (move trust up the path, get more score)
+- get more bot reward than it is deposited
 
 # Обязательно:
 ## buffer
@@ -267,12 +269,10 @@ Than the question whether to use added value or fixed value answers itself. We c
 Now it makes sense to stake oneself. Staking like this will increase user's score and signal that the user trusts their peers. **The score is a share now.** BUT. There must be now a constraint that incentivizes users to stake higher and higher groups instead of themselves. 
 Probably no constraint needed. The higher the group, the less members it has. The more percents it can give to members. Maybe this is a constraint - share the whole pool. That means that scores are represented by shares, not percent. A new member getting a share dilutes all other shares. 
 
-
-
 ## Mind where the capital comes from
 What if a group have it's own capital. Then it has power to asses it's members. **Without own capital the scores will just mirror stakes (shares).** 
 
-## Real world reputation matters?
+## Does the real world reputation matter?
 What if a group has a leader with real world reputation. It is in their interest to allow this leader to assign scores.
 
 **This setup will decrease bot reward with every explosion.**
@@ -296,5 +296,5 @@ What we should encourage and what discourage.
 
 ### An app brings capital to a group
 
-### Investor brings capital
+### Investor (curator) brings capital
 - It wants to earn with the group. The entity trusts the group, stakes on it and earns (encourage). Reward - shares from apps fees, Risk - bot attacks. Users are interested in investors to increase their scores. 
