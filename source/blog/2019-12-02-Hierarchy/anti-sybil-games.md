@@ -169,7 +169,9 @@ __Инициатива участвовать (value)__
 # Adoption
 There must be some value other than identity.
 - a password manager
-- earning opportunity (FOMO-like game)
+- earning opportunity 
+    + FOMO-like game)
+    + Advertisement
 - UBI
 
 УПРАВЛЕНИЕ

@@ -298,3 +298,50 @@ What we should encourage and what discourage.
 
 ### Investor (curator) brings capital
 - It wants to earn with the group. The entity trusts the group, stakes on it and earns (encourage). Reward - shares from apps fees, Risk - bot attacks. Users are interested in investors to increase their scores. 
+
+
+# Incentives
+## 
+
+
+# Metrics (all possible)
+## d. Member deposit into a group (d)
+By contributing deposit into a group the **member signals of its trust to the group**.
+The more the deposit the more the trust. 
+From the group's side the picture is reverse: the group will try to compensate for risks of letting a new untrusted member in by demanding higher deposit. 
+
+## R. Bot reward for a member (bot-net reward)
+Could serve as a harm limit. 
+Shows the overall member reliability (is it a bonet or not). **How much the group trusts the member**.
+
+What if we link this to deposit amount?
+
+## r. Bot reward for a individual
+Could be calculated as R/n. But it is hard to keep track of users at leat with the current smart contract. 
+
+What are the benefits of decoupling it from nuber of users except for optimization?
+We can then use it as a characteristic of individuals within the subgroup. 
+What if the corresponding member decides on the reward? Makes sense. This parameter shows **how much subgroup members trust each other**.
+
+
+## N. Number of members
+Doesn't make much sense all by itself. Only if we introduce some additioal constraints like a fixed number of users per group. 
+
+## n. Number of users
+The users, the riskier it is to add group as a member. Introducing Bot-net reward relieves this risk a bit.
+n is also needed to calculate individual bot reward, if we stick with the Bot-net reward. Though we can decouple individual bot reward from number of users.
+
+
+
+# Option. Max Bot reward is asigned to a group member (not to a end-user). 
+If the group makes a deposit, the bot reward could be a multiplication of it. This is how trust is built. 
+
+What I like about this option is that bot reward is assigned in the same way at any level of group hierarchy. In other setups the bottom-most groups assign rewards to members (as members = users), while all other levels assign to users. 
+
+Another thing that I like. Here the harm is restricted. And bot reward is easier understood. And there is a simpler description for the bot reward. It is bot-net reward. 
+
+
+
+Now, if we want to connect bot reward to member deposit what is the best way to do it? 
+We can introduce a trust multiplier. The bot reward (or rather bot-net reward) in this case would be equal deposit x multiplier. 
+
