@@ -170,8 +170,9 @@ __Инициатива участвовать (value)__
 There must be some value other than identity.
 - a password manager
 - earning opportunity 
-    + FOMO-like game)
+    + FOMO-like game
     + Advertisement
+    + Speculation (issue tokens)
 - UBI
 
 УПРАВЛЕНИЕ

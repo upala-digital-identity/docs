@@ -233,6 +233,14 @@ Decentralized unique identity
 - `UniqueID Decentralized Proof-of-Unique-Human <https://arxiv.org/pdf/1806.07583.pdf>`_ - survey of decentralized identity systems
 
 
+Face-recognition
+''''''''''''''''
+- `Secure Face Matching Using Fully Homomorphic Encryption <http://hal.cse.msu.edu/assets/pdfs/papers/2018-btas-secure-face-matching.pdf>`_ 
+- `Privacy-Preserving Face Recognition <http://homepage.tudelft.nl/c7c8y/SSP/PrivacyPreservingFaceRecognition.pdf>`_ 
+
+
+
+
 
 Bonding Curves todo
 - https://docs.google.com/document/d/1VNkBjjGhcZUV9CyC0ccWYbqeOoVKT2maqX0rK3yXB20/edit - by Simon 

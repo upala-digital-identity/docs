@@ -300,21 +300,43 @@ What we should encourage and what discourage.
 - It wants to earn with the group. The entity trusts the group, stakes on it and earns (encourage). Reward - shares from apps fees, Risk - bot attacks. Users are interested in investors to increase their scores. 
 
 
-# Incentives
-## 
 
 
 # Metrics (all possible)
+## P. Pool size
+If Botnet reward is not used, pool size shows group's trust to all of its members. 
+
+If we decide to use shares group pool will consist of shares (but it could be obsolete in this case). 
+
 ## d. Member deposit into a group (d)
 By contributing deposit into a group the **member signals of its trust to the group**.
 The more the deposit the more the trust. 
-From the group's side the picture is reverse: the group will try to compensate for risks of letting a new untrusted member in by demanding higher deposit. 
+From the group's side the picture is reverse: the group will try to compensate for risks of letting a new untrusted member in by demanding higher deposit.
+
+This could also be viewed as shares. For example a lower group may invest in a number of higher groups. 
+
+## i. Investment into a group
+What if a thrird-party wants to invest into a group. What are the motifs of doing so? 
+Donation. 
+A donor would like to support a weak group and let it be accepted. The donor then bears risks of explosions from that group. 
+Investment. 
+An investor will have a share in that group. So that they could earn. 
+
+Interesting question is what we will do if we link Botnet reward to member's deposit. If an investor brings money in 
 
 ## R. Bot reward for a member (bot-net reward)
 Could serve as a harm limit. 
 Shows the overall member reliability (is it a bonet or not). **How much the group trusts the member**.
 
-What if we link this to deposit amount?
+This should be higher than the member's deposit (if anything deposited at all). And it is ok if sum of all botnet rewards exceeds the pol size
+
+Looks very much like a stake. 
+
+
+## Trust multiplier. 
+If we link deposit and Botnet reward, we could use this multiplier as a substitute for Botnet reward. It will effectively show group's trust to the member. 
+
+
 
 ## r. Bot reward for a individual
 Could be calculated as R/n. But it is hard to keep track of users at leat with the current smart contract. 
@@ -323,6 +345,7 @@ What are the benefits of decoupling it from nuber of users except for optimizati
 We can then use it as a characteristic of individuals within the subgroup. 
 What if the corresponding member decides on the reward? Makes sense. This parameter shows **how much subgroup members trust each other**.
 
+If not bot-net reward used this shows the overall groups trust to the member. The member can drain the whole pool. 
 
 ## N. Number of members
 Doesn't make much sense all by itself. Only if we introduce some additioal constraints like a fixed number of users per group. 
