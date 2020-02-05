@@ -10,3 +10,13 @@ Ok this should be at least country scale database in order to keep track of expl
 how we ensure that a provider will not generate a bot army? 
 
 This is enforced legaly by a real-world contract. 
+
+## Mail-confirmation (no legal contract)
+Mail with confirmation sent by a top-level group 
+
+1. A user is asigned a random agent. 
+Why random
+2. The agent checks user's credentials and sends them to the above group. 
+
+3. The group emails a key to unlock user digital ID. 
+

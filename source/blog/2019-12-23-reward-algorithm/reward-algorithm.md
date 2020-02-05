@@ -303,6 +303,14 @@ What we should encourage and what discourage.
 
 
 # Metrics (all possible)
+
+## s. Price-of-personhood. Score
+How valuable the ID is to the owner 
+How expensive it is to get another one 
+Doesn't depend on deposit, but rather on future work and value of the ID. Thus deposit is unnecessary. 
+By encreasing the price we bargain with bots. 
+
+
 ## P. Pool size
 If Botnet reward is not used, pool size shows group's trust to all of its members. 
 
@@ -315,6 +323,8 @@ From the group's side the picture is reverse: the group will try to compensate f
 
 This could also be viewed as shares. For example a lower group may invest in a number of higher groups. 
 
+User deposit may be virtual. It will affect future income (exposure to risks)
+
 ## i. Investment into a group
 What if a thrird-party wants to invest into a group. What are the motifs of doing so? 
 Donation. 
@@ -324,6 +334,13 @@ An investor will have a share in that group. So that they could earn.
 
 Interesting question is what we will do if we link Botnet reward to member's deposit. If an investor brings money in 
 
+## Comission for joining a group. 
+A group may earn by charging a comission. The comission does not affect pool. 
+
+## Comission for inviting a group 
+
+
+
 ## R. Bot reward for a member (bot-net reward)
 Could serve as a harm limit. 
 Shows the overall member reliability (is it a bonet or not). **How much the group trusts the member**.
@@ -331,6 +348,7 @@ Shows the overall member reliability (is it a bonet or not). **How much the grou
 This should be higher than the member's deposit (if anything deposited at all). And it is ok if sum of all botnet rewards exceeds the pol size
 
 Looks very much like a stake. 
+
 
 
 ## Trust multiplier. 
@@ -346,6 +364,11 @@ We can then use it as a characteristic of individuals within the subgroup.
 What if the corresponding member decides on the reward? Makes sense. This parameter shows **how much subgroup members trust each other**.
 
 If not bot-net reward used this shows the overall groups trust to the member. The member can drain the whole pool. 
+
+Or 
+
+**Could be set by the topmost group**
+Signals of the group quality (everyone underneath is equal).
 
 ## N. Number of members
 Doesn't make much sense all by itself. Only if we introduce some additioal constraints like a fixed number of users per group. 
