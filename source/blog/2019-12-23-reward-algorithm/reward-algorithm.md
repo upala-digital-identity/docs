@@ -300,6 +300,28 @@ What we should encourage and what discourage.
 - It wants to earn with the group. The entity trusts the group, stakes on it and earns (encourage). Reward - shares from apps fees, Risk - bot attacks. Users are interested in investors to increase their scores. 
 
 
+# Parties
+
+## User
+Wants to select the best performing groups. And "invest" (whatever it means for now) in them. 
+What is best preforming:
+- Trusted by the user
+- Trusted from above
+- Working hard to select best groups above (allocate capital in the best possible way)
+- Best earning opportunities
+- Lowest fees (if any at all)
+
+## Group 
+Want to have high quality members 
+
+## Apps 
+Want to select best performing groups:
+- High people count
+- Highest scores 
+- Lowest fees
+
+
+
 
 
 # Metrics (all possible)
@@ -308,8 +330,7 @@ What we should encourage and what discourage.
 How valuable the ID is to the owner 
 How expensive it is to get another one 
 Doesn't depend on deposit, but rather on future work and value of the ID. Thus deposit is unnecessary. 
-By encreasing the price we bargain with bots. 
-
+By encreasing the price we bargain with bots, allure bots to surrender. 
 
 ## P. Pool size
 If Botnet reward is not used, pool size shows group's trust to all of its members. 
@@ -325,21 +346,23 @@ This could also be viewed as shares. For example a lower group may invest in a n
 
 User deposit may be virtual. It will affect future income (exposure to risks)
 
-## i. Investment into a group
+## i. Investment into a group (stake?)
 What if a thrird-party wants to invest into a group. What are the motifs of doing so? 
 Donation. 
 A donor would like to support a weak group and let it be accepted. The donor then bears risks of explosions from that group. 
 Investment. 
 An investor will have a share in that group. So that they could earn. 
 
-Interesting question is what we will do if we link Botnet reward to member's deposit. If an investor brings money in 
+Interesting question is what we will do if we link Botnet reward to member's deposit... Let the groups decide, what ratio of income to risk exposure they are willing to give. 
+
+__A special kind of earning shares?__
 
 ## Comission for joining a group. 
-A group may earn by charging a comission. The comission does not affect pool. 
+A group may earn by charging a comission. The comission does not affect pool. If a group requires a fee from a member, it decides which part is to be forwarded further up and which to be collected as fee. 
 
 ## Comission for inviting a group 
 
-
+Investments and commission could be added afterwards. Could be done in parallel. 
 
 ## R. Bot reward for a member (bot-net reward)
 Could serve as a harm limit. 
@@ -348,8 +371,6 @@ Shows the overall member reliability (is it a bonet or not). **How much the grou
 This should be higher than the member's deposit (if anything deposited at all). And it is ok if sum of all botnet rewards exceeds the pol size
 
 Looks very much like a stake. 
-
-
 
 ## Trust multiplier. 
 If we link deposit and Botnet reward, we could use this multiplier as a substitute for Botnet reward. It will effectively show group's trust to the member. 
@@ -387,7 +408,36 @@ What I like about this option is that bot reward is assigned in the same way at 
 Another thing that I like. Here the harm is restricted. And bot reward is easier understood. And there is a simpler description for the bot reward. It is bot-net reward. 
 
 
-
 Now, if we want to connect bot reward to member deposit what is the best way to do it? 
 We can introduce a trust multiplier. The bot reward (or rather bot-net reward) in this case would be equal deposit x multiplier. 
 
+
+# Option. Free but limited reputation for all users. 
+
+Give free tokens to avery new user. The amount is fixed and non-transferable. A user can only allocate tokens in groups. 
+
+Groups allocate their tokens in the same way. __So this is trust from bottom.__ 
+
+
+# Option. Shares of shares, tokens of tokens. 
+
+How a bot reward is then calculated? First, let's think how trust descends. Every group assigns scores to users. This is the reward. Is there a connection between the reward and user/member's deposit? There may be no such correlation. This is market. 
+" I can give you this score, but you need to deposit that much". So even with no value behind trust token, users shape the market. They chose. Sure, but doesn't it make even more sense to couple trust and score. Here trust multiplier comes in. 
+"I'd better select groups with high trust multiplier, but I should always be ware of risks". __Opportunity and risk__. 
+Makes sense. __Invest trust, recieve score.__ Both can be represented in dollars. 
+The investment may earn as well. If the top group produces some value (scoring fees, UBI, etc.)
+How can groups earn from the bottom? Make it the same way? 
+"I'd better select members with the highest gain, but I need to select only trusted ones". Opportunities and risks. But higher groups "allocate/invest" in their members more money than they possess due to the trust multiplier. 
+
+By the way, in the shares model __all the money may be stored in the topmost group__. Every member below has shares, so there is no need to calculate anything. Just transfer real money to the bot. Everybody loses automatically. 
+
+Maybe groups and members just exchange shares? Cannot figure out. 
+
+Channels. We don't have to align profits with trust and scores (all that stuff). __A profitable share is a bonus__ (there is no need to descend it down to the user level). Let dimensions decide on that. Same with bottom-top income. It is a bonus. 
+
+If a group is profitable, let anyone invest in the profits. Let profits be independent of bot reward mechanism. s
+
+Here a very big problem underlies. When buing shares of a bottom group, the price needs to be calculated everytime. Shares spread up in a tree-like structure. __We'd have to analyse the whole tree__. 
+
+
+Reputation = Cost + margin
