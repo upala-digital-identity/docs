@@ -20,6 +20,7 @@ PercentOfTrust
 **Bring real world trust to Ethereum blockchain**
 
 Share risks and income. 
+__Invest trust, recieve score.__
 
 - a member with high score can enter a cheap group, but still remain high score
 - initiative to deposit into a higher groups than into own one (move trust up the path, get more score)
@@ -59,6 +60,13 @@ Share risks and income.
 ## spam-free
 ## everybody pays
 
+
+#  Invest trust, recieve score.
+Let's try to break this down. 
+
+We would like higher groups to manage/allocate trust in a way that provides the highest scores to users. 
+
+Trust is allocated deposit from below. Score is bot reward. 
 
 
 
@@ -109,6 +117,9 @@ MaxBotReward определяет надбавку текущей группы. 
 
 Берем maxBotReward * score и распределяем его по всей цепочке пропорционально maxBotReward в каждой группе. 
 
+## Algorithm 5. Bot reward is the score
+The higher the group the more the reward
+Payments start from the bottom.
 
 
 
@@ -325,6 +336,7 @@ Want to select best performing groups:
 
 
 # Metrics (all possible)
+Invest trust, recieve score.
 
 ## s. Price-of-personhood. Score
 How valuable the ID is to the owner 
@@ -337,43 +349,12 @@ If Botnet reward is not used, pool size shows group's trust to all of its member
 
 If we decide to use shares group pool will consist of shares (but it could be obsolete in this case). 
 
-## d. Member deposit into a group (d)
-By contributing deposit into a group the **member signals of its trust to the group**.
-The more the deposit the more the trust. 
-From the group's side the picture is reverse: the group will try to compensate for risks of letting a new untrusted member in by demanding higher deposit.
+## N. Number of members
+Doesn't make much sense all by itself. Only if we introduce some additioal constraints like a fixed number of users per group. 
 
-This could also be viewed as shares. For example a lower group may invest in a number of higher groups. 
-
-User deposit may be virtual. It will affect future income (exposure to risks)
-
-## i. Investment into a group (stake?)
-What if a thrird-party wants to invest into a group. What are the motifs of doing so? 
-Donation. 
-A donor would like to support a weak group and let it be accepted. The donor then bears risks of explosions from that group. 
-Investment. 
-An investor will have a share in that group. So that they could earn. 
-
-Interesting question is what we will do if we link Botnet reward to member's deposit... Let the groups decide, what ratio of income to risk exposure they are willing to give. 
-
-__A special kind of earning shares?__
-
-## Comission for joining a group. 
-A group may earn by charging a comission. The comission does not affect pool. If a group requires a fee from a member, it decides which part is to be forwarded further up and which to be collected as fee. 
-
-## Comission for inviting a group 
-
-Investments and commission could be added afterwards. Could be done in parallel. 
-
-## R. Bot reward for a member (bot-net reward)
-Could serve as a harm limit. 
-Shows the overall member reliability (is it a bonet or not). **How much the group trusts the member**.
-
-This should be higher than the member's deposit (if anything deposited at all). And it is ok if sum of all botnet rewards exceeds the pol size
-
-Looks very much like a stake. 
-
-## Trust multiplier. 
-If we link deposit and Botnet reward, we could use this multiplier as a substitute for Botnet reward. It will effectively show group's trust to the member. 
+## n. Number of users
+The users, the riskier it is to add group as a member. Introducing Bot-net reward relieves this risk a bit.
+n is also needed to calculate individual bot reward, if we stick with the Bot-net reward. Though we can decouple individual bot reward from number of users.
 
 
 
@@ -391,12 +372,72 @@ Or
 **Could be set by the topmost group**
 Signals of the group quality (everyone underneath is equal).
 
-## N. Number of members
-Doesn't make much sense all by itself. Only if we introduce some additioal constraints like a fixed number of users per group. 
 
-## n. Number of users
-The users, the riskier it is to add group as a member. Introducing Bot-net reward relieves this risk a bit.
-n is also needed to calculate individual bot reward, if we stick with the Bot-net reward. Though we can decouple individual bot reward from number of users.
+
+## R. Bot reward for a member (bot-net reward)
+Could serve as a harm limit. 
+Shows the overall member reliability (is it a bonet or not). **How much the group trusts the member**.
+
+This should be higher than the member's deposit (if anything deposited at all). And it is ok if sum of all botnet rewards exceeds the pol size
+
+Looks very much like a stake. 
+
+
+
+
+
+
+
+## d. Member deposit into a group (d)
+By contributing deposit into a group the **member signals of its trust to the group**.
+The more the deposit the more the trust. 
+From the group's side the picture is reverse: the group will try to compensate for risks of letting a new untrusted member in by demanding higher deposit.
+
+This could also be viewed as shares. For example a lower group may invest in a number of higher groups. 
+
+User deposit may be virtual. It will affect future income (exposure to risks)
+
+
+## Trust multiplier. 
+If we link deposit and Botnet reward, we could use this multiplier as a substitute for Botnet reward. It will effectively show group's trust to the member. 
+
+
+
+
+## i. Investment into a group (stake?)
+What if a thrird-party wants to invest into a group. What are the motifs of doing so? 
+Donation. 
+A donor would like to support a weak group and let it be accepted. The donor then bears risks of explosions from that group. 
+Investment. 
+An investor will have a share in that group. So that they could earn. 
+
+Interesting question is what we will do if we link Botnet reward to member's deposit... Let the groups decide, what ratio of income to risk exposure they are willing to give. 
+
+__A special kind of earning shares?__
+
+
+
+
+## Comission for joining a group. 
+A group may earn by charging a comission. The comission does not affect pool. If a group requires a fee from a member, it decides which part is to be forwarded further up and which to be collected as fee. 
+
+## Comission for inviting a group 
+
+Investments and commission could be added afterwards. Could be done in parallel. 
+
+
+
+
+
+
+
+# Unions vs Layer 2 Analyzers.
+
+Suppose there are github users dimension and facebook users dimension. The union will have to be created as a separate group, which will check every user's score in both dimensions and assign score accordingly. So Union becomes new dimension. This is Layer 2 analyzer described. 
+
+Now let's try to compare. 
+
+Union unites two different sets of people, whereas analyzer unite same people. 
 
 
 
