@@ -21,6 +21,7 @@ Pale Blue Paper
    explosive-bots
    universe
    state-of-knowledge
+   roadmap
 
 .. include:: ./footer.rst
 

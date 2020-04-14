@@ -175,6 +175,7 @@ There must be some value other than identity.
     + Speculation (issue tokens)
 - UBI
 - Form local communities and communities by interest... 
+- Fun
 
 УПРАВЛЕНИЕ
 =======================================================================
