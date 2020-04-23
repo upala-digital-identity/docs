@@ -6,14 +6,37 @@ Roadmap and team
 
 Roadmap
 =======
+- Done. Deploy to Kovan
+- **Build a team!**
 - UX Prototype (Dragon Quest Hackathon)
 - BladerunnerDAO MVP to Kovan
 - Provide Upgradability on Kovan
 - Deploy to mainnet
 - Security audit
 
+Team
+====
+
+**Peter Porobov - Research, Smart Contracts**
+
+Entrepreneur. Founded and co-founded startups in 3d-printing, art and drones. In May 2016 fell in love with Ethereum and created a charity project. In January 2019 started research on Upala.
+
+Entrepreneur, programmer. Founded and co-founded startups in 3d-printing, art and drones. Created a charity project on Ethereum, now building Upala Digital Identity.
+
+Links: https://github.com/porobov, https://twitter.com/porobov_p
+
+
+**Andrei Bolkisev - Advisor (architecture).**
+
+Andrei Bolkisev is an information systems engineer and programmer with 13 years of experience and Ph.D. in computational physics. As information systems engineer he was leading projects ranged from state-scaled information systems to microcontrollers programming. In computation physics, he worked on developing novel methods applied to combustion of solids modeling. As for now, he is most interested in investigating social and economic dynamics.
+
+Links: https://vk.com/blksv,  https://www.researchgate.net/profile/Andrei_Bolkisev
+
+
 Tasks
 =====
+
+Just left it here until I find a better soultion. 
 
 Dragon quest:
 -------------
@@ -26,22 +49,36 @@ General/UX
 - Build UX based on figma.
 - Done. Investigate group list storage on 3Box - call Rachel
 - Done. Investigate Gnosis proxy for ID wallet - call Gnosis
-- Details of gnosis proxy - call Alen/Richard from Gnosis
-
-Friends-based dimension
------------------------
-- Create Groups creation UX
-- Telegram, Discord UX for creating groups
+- Done. Details of gnosis proxy - call Alen/Richard from Gnosis
+- DApp UX
 
 BladerunnerDAO:
 ---------------
-The main value here is the BladerunnerDAO. Huge task. It makes more sense to start with friends-based setup for the Hackathon.
 
-- Check if there is a mirror of DAOs on Kovan (or other testnets)
-- Create FakeMoloch and MetaCartel on Kovan (anyone can join)
+- FakeMoloch and MetaCartel on Kovan (anyone can join by transaction)
+- Minimal BladerunnerDAO (no admin)
+- Interaction with DApp
+
+Future:
 - Create minimal UX for joinig the DAOs (for Kovan prototype only, as mainnet will use real DAOs)
 - Create UX for DAO-members to govern the DAO (and elect Emergency admin)
 - Create UX for BladerunnerDAO emergency admin
+- Check if there is a mirror of DAOs on Kovan (or other testnets)
+
+
+Friends-based dimension
+-----------------------
+- Groups creation UX 
+- Group management UX (approve members, assign scores, etc...)
+- Hard-coded top-level friends group (a factory, that creates and autoassigns scores to subgroups)
+- DApp support for the score provider
+- Telegram, Discord UX for creating groups
+
+If we build friends based system, how a DApp will now about a new group
+We will still need a BladerunnerDAO, but generating groups. 
+
+
+
 
 Pepo-based dimension
 --------------------
