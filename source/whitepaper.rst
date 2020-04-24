@@ -9,21 +9,33 @@ What is Upala
 Upala at a glance
 =================
 
-- Provides a digital identity uniqueness score. In dollars (Price of Person-hood).
+Upala is an anti-Sybil system for DApps and a decentralized digital identity.
+
+- Provides a digital identity uniqueness score in dollars (Price of forgery).
 - Utilizes the social responsibility concept ("Invite only trusted members, or lose your money and reputation").
 - Hierarchical social graph. Built with groups. Stored on-chain.
 - Simple off-chain graph analysis and on-chain proofs.
-- Upala is a protocol. It enables to build different identity systems united under the same scoring standard. 
+- Upala is a protocol. It enables to build different identity systems united under the same scoring standard.
 - The protocol can wrap over existing systems (Bright ID, Humanity DAO, Idena) and unite them.
-
 
 Panvala grantee (Batch 3, Sep' 2019).
 
 `View Upala on Github <https://github.com/porobov/upala/tree/master/contracts>`_
 
-Price of personhood
-===========================
+`Upala talk at Parallele Polis NonCon 2020 <https://www.youtube.com/watch?v=wpaQ2r4ZHfI&feature=youtu.be>`_
 
+Price of forgery
+================
+
+Upala provides a **digital identity uniqueness score**. The score is valued in dollars and represents the explosion price - an amount of money that an identity holder can get at any time for deleting their ID. The higher the explosion price the higher the owner values the ID and the safer it is for DApps to interact with.
+
+The building block of Upala social graph is a group. The explosions payouts are provided by groups pools. Thus groups tend to consist of people who believe that other members value their IDs equally.
+
+Groups may earn by providing user scores to dapps and/or from user deposits and are incentivized to gather as many users as possible. Users are incentivized to choose groups giving the highest scores. At the same time the higher the explosion price (the score), the higher is the incentive to forge an identity. The market drives these prices to the equilibrium for every user (much in the same way as insurance rates balance).
+
+.. The harder it is to gain such score again, the harder it is to forge - thus the Price of forgery. 
+
+.. Price of personhood
 .. Price-of-personhood digital identity. 
 
 .. Upala is a proof of uniqueness system. One person — one ID.
@@ -47,7 +59,7 @@ Price of personhood
 .. Game-based blockchain-powered person-hood pricing system
 
 
-Upala provides a **digital identity uniqueness score**. The score is represented by a price for which an identity can be sold at any time. The higher the price the more the ID owner values it, the safer it is to interact with.
+
 
 .. 
 	This is the price of getting an identity again. If you cheat your friends and steal money from them. You'd have to repay the debt or find other friends. Build trust there. Those with little trust are risky. They need to pay more.
@@ -88,16 +100,6 @@ Design philosophy
 - Protect bots rights
 - Everything which is not forbidden is allowed
 - Crypto-economic constrains instead of code constrains
-
-Roadmap
-=======
-
-- Draft 2-3 digital identity systems using Upala protocol
-- Finalize the protocol
-- Build an MVP digital identity system on top of the protocol
-- Build another digital identity system and unite it with the MVP
-- Provide tools for creating Upala-compliant identity systems
-
 
 **Next, human, have a look at** :ref:`how Upala works<bots>`.
 

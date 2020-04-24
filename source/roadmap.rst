@@ -6,6 +6,8 @@ Roadmap and team
 
 Roadmap
 =======
+- Done. Draft 2-3 digital identity systems using Upala protocol
+- Done. Finalize the protocol
 - Done. Deploy to Kovan
 - **Build a team!**
 - UX Prototype (Dragon Quest Hackathon)
@@ -13,6 +15,8 @@ Roadmap
 - Provide Upgradability on Kovan
 - Deploy to mainnet
 - Security audit
+- Provide tools for creating Upala-compliant identity systems
+
 
 Team
 ====
