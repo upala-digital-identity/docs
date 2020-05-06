@@ -170,6 +170,10 @@ Other
 - namecoin
 - @bloomtoken
 
+KYC-services
+''''''''''''
+- `Jumio <https://www.jumio.com/>`_- AI-Powered Identity Verification Services
+
 UBI and decentralized landing
 '''''''''''''''''''''''''''''
 
