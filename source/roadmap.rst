@@ -23,8 +23,6 @@ Team
 
 **Peter Porobov - Research, Smart Contracts**
 
-Entrepreneur. Founded and co-founded startups in 3d-printing, art and drones. In May 2016 fell in love with Ethereum and created a charity project. In January 2019 started research on Upala.
-
 Entrepreneur, programmer. Founded and co-founded startups in 3d-printing, art and drones. Created a charity project on Ethereum, now building Upala Digital Identity.
 
 Links: https://github.com/porobov, https://twitter.com/porobov_p
