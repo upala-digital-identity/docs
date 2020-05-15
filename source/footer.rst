@@ -11,6 +11,7 @@
 
 **Support:**
 
+- **Please introduce Upala to a fund! We are looking for funding!**
 - `Donate Ethereum <https://etherscan.io/address/0xddB1CB4EdBCD83066Abf26E7102dc0e88009DEAB>`_
 - `Donate Bitcoin <https://blockexplorer.com/address/3K4FSqxS5cygY969L1xz6a2DZCqfTTNxQk>`_
 - `Fund Panvala <https://panvala.com/donate/>`_ (Upala is made possible with Panvala)

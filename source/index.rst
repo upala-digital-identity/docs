@@ -24,7 +24,3 @@ Pale Blue Paper
    roadmap
 
 .. include:: ./footer.rst
-
-**Backed by:**
-
-.. image:: /img/panvala.png
