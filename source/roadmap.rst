@@ -9,10 +9,12 @@ Roadmap
 - Done. Draft 2-3 digital identity systems using Upala protocol
 - Done. Finalize the protocol
 - Done. Deploy to Kovan
+- Done. Build UX Prototype
 - **Build a team!**
-- UX Prototype (Dragon Quest Hackathon)
-- BladerunnerDAO MVP to Kovan
-- Provide Upgradability on Kovan
+- **Build production UX**
+- Deploy BladerunnerDAO to Kovan
+- Tests
+- Provide Upgradability
 - Deploy to mainnet
 - Security audit
 - Provide tools for creating Upala-compliant identity systems
