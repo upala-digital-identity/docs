@@ -12,7 +12,7 @@ Roadmap
 - Done. Build UX Prototype
 - **Build a team!**
 - **Build production UX**
-- Deploy BladerunnerDAO to Kovan
+- BladerunnerDAO to Kovan
 - Tests
 - Provide Upgradability
 - Deploy to mainnet
@@ -40,31 +40,22 @@ Links: https://vk.com/blksv,  https://www.researchgate.net/profile/Andrei_Bolkis
 Tasks
 =====
 
-Just left it here until I find a better soultion. 
+BladerunnerDAO (DAOs membership-based dimension):
+-------------------------------------------------
+Testnet:
+- BladerunnerDAO smart contract(s)
+- Mock Moloch and MetaCartel on Kovan (anyone can join by transaction)
+- Entry tests smart contract(s)
+- Front-end for users (Upala Wallet)
+- Minimal BladerunnerDAO
+- Front-end for BladerunnerDAO
 
-Dragon quest:
--------------
-- 3Box - https://explorer.bounties.network/bounty/3920
-- Gnosis - https://explorer.bounties.network/bounty/3937
-- Pepo UX - https://explorer.bounties.network/bounty/3922
-
-General/UX
------------
-- Build UX based on figma.
-- Done. Investigate group list storage on 3Box - call Rachel
-- Done. Investigate Gnosis proxy for ID wallet - call Gnosis
-- Done. Details of gnosis proxy - call Alen/Richard from Gnosis
-- DApp UX
-
-BladerunnerDAO:
----------------
-
-- FakeMoloch and MetaCartel on Kovan (anyone can join by transaction)
-- Minimal BladerunnerDAO (no admin)
-- Interaction with DApp
+Mainnet launch:
+- Tests for front-ends
+- Tests for contracts (Upala and Bladerunner)
+- Upgradability for Upala protocol
 
 Future:
-- Create minimal UX for joinig the DAOs (for Kovan prototype only, as mainnet will use real DAOs)
 - Create UX for DAO-members to govern the DAO (and elect Emergency admin)
 - Create UX for BladerunnerDAO emergency admin
 - Check if there is a mirror of DAOs on Kovan (or other testnets)
@@ -80,8 +71,6 @@ Friends-based dimension
 
 If we build friends based system, how a DApp will now about a new group
 We will still need a BladerunnerDAO, but generating groups. 
-
-
 
 
 Pepo-based dimension
