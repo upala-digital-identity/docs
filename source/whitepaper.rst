@@ -45,7 +45,7 @@ Groups may earn by providing user scores to dapps and/or from user deposits and 
 .. identity uniqueness pricing protocol
 .. price of person-hood protocol 
 
-.. unique identity provider
+.. unique identity provider..
 .. unique identity system
 .. unique identity scoring protocol 
 .. identity uniqueness scoring system
