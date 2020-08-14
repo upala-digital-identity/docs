@@ -15,29 +15,31 @@ Users join a group. They put their depostis in a pool (DAI). And the group assig
 Explosive bots
 ==============
 
-Notice that the score is higher than the deposit. This is where the second concept comes in. Explosive bots protocol. It ensures that anyone can delete their id at any time and grab an amount of money corresponding to their score.
+Notice that the score is higher than the deposit. This is where Explosive bots concept comes in. It ensures that anyone can delete their ID at any time and grab an amount of money corresponding to their score.
 
 .. image:: /img/deck/bots.png
 
-Here a malicious user is able to get $10 from the pool. Sure enough other members will feel betrayed. And they will not let this person in again. 
+Here a malicious user is able to get $10 from the pool. 
 
-A user performing such an attack is considered a bot. The act of stealing is immediately followed by self-destruction. Thus the name exploding bots.
+Sure enough other members will feel betrayed. And they will not let this person in again. 
+
+A user performing such an attack is considered a bot. The act of stealing is immediately followed by self-destruction. Thus the name Exploding bots.
 
 Stacking
 ========
 
-The third concept is stacknig. The same way users join groups, groups gather into hierarchies. Superior groups may require deposits from its subgroups. And in return add extra scores to their users. The same scores will be paid as a reward to an exploding attacker.
+The same way users join groups, groups gather into hierarchies. Superior groups may require deposits from its subgroups. And in return they add extra scores to their users (the same scores will be paid as a reward to an exploding attacker).
 
 .. image:: /img/deck/stacking.png
 
 Paths
 =====
 
-Both an attacker or a good user need a membership path through the group hierarchy to prove their scores.
+Both an attacker or a good user need a membership path through the group hierarchy to prove their score.
 
 .. image:: /img/deck/membership_paths.png
 
-These 4 concepts are the only constraints in the protocol. The rest is arbitrary.
+These are the only constraints in the protocol. The rest is arbitrary.
 
 Multiple membership
 ===================
@@ -48,16 +50,18 @@ Users and groups may join any number of superior groups. The process of group cr
 DApps
 =====
 
-A DApp may decide to trust any group and estimate user scores relative to that group. DApps may approve any number of groups as their score providers.
+A DApp may decide to trust any group and use user scores relative to that group. DApps may approve any number of groups as their score providers.
 
-Groups may decide to charge DApps for providing user scores. Or they may earn interest on their huge pools. Or they may chose some other economic model.
+Groups may decide to charge DApps for providing user scores. Or they may earn interest on their pools. Or they may chose some other economic model.
+
+They may chose any governance model as well.
 
 .. image:: /img/deck/dapps.png
 
 Best path
 =========
 
-A **user score** is calculated relative to a group and relies on all the scores down the hierarchy. There could be several authorization paths. And it is practical for the user to select the path, that collects the maximum score.
+A **user score** is calculated relative to a group and relies on all the scores down the hierarchy. There could be several authorization paths. It is practical for the user to select the path, that collects the maximum score.
 
 .. image:: /img/deck/best_path.png
 
@@ -95,7 +99,7 @@ Upala can wrap over multiple identity systems and communities.
 
 .. image:: /img/deck/multiple_dimensions.png
 
-Here scores may be higher than a blackmarket cost of a state ID. This is a way for Upala to become a subsitute state ID.
+Here scores may be higher than a blackmarket cost of a state ID. This is a way for Upala to become a subsitute for state IDs.
 
 Explosion window
 ================
