@@ -4,6 +4,7 @@
 How Upala works
 ===============
 
+Check out this `4 min video on how Upala works <https://youtu.be/9ekWCMQcdbc>`_ if you prefer.
 
 Groups
 ======
