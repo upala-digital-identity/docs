@@ -76,9 +76,14 @@ A market similar to insurance emerges. But instead of trading coverage for premi
 
 .. image:: /img/deck/insurance.png
 
+💰🕶️ Price of forgery
+=====================
+
 The market makes the score to be roughly equal to the cost of acquiring such a score. Which in other words is the price of forgery. And it is a very reliable metrics for DApps to assess human uniqueness with.
 
-
+..
+	..
+	
 Flexibility
 ===========
 

@@ -9,7 +9,7 @@
 Upala documentation
 ===================
 
-Upala is a price-of-personhood digital identity system. 
+Upala is a price-of-forgery digital identity system. 
 
 Pale Blue Paper
 ---------------
