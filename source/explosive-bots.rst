@@ -8,7 +8,7 @@ Check out this `4 min video on how Upala works <https://youtu.be/9ekWCMQcdbc>`_ 
 
 Groups
 ======
-Users join a group. They put their depostis in a pool (DAI). And the group assigns scores to all of its users.
+Users join a group. They put their deposits in a pool (DAI). And the group assigns scores to all of its users.
 
 .. image:: /img/deck/groups.png
 
@@ -72,7 +72,7 @@ Everyone is free to chose. But. DApps need large and trusted score providers. Gr
 
 .. image:: /img/deck/market.png
 
-A market similar to insurance emerges. But instead of trading coverage for premium, in Upala scores are traded for deposits. And the risk here is the risk of explosion. It is meausered by user's reputation and the efforts spent on solving CAPTCHAS (pseudonym parties, empathy tests, etc).
+A market similar to insurance emerges. But instead of trading coverage for premium, in Upala scores are traded for deposits. And the risk here is the risk of explosion. It is measured by user's reputation and the efforts spent on solving CAPTCHAS (pseudonym parties, empathy tests, etc).
 
 .. image:: /img/deck/insurance.png
 
