@@ -1,4 +1,6 @@
 
+Moved to Notion
+
 Where money flows from and do we need money at all. 
 
 First. It is not for profit organization. 
