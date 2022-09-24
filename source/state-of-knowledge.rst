@@ -244,8 +244,10 @@ Face-recognition
 - `Privacy-Preserving Face Recognition <http://homepage.tudelft.nl/c7c8y/SSP/PrivacyPreservingFaceRecognition.pdf>`_ 
 
 
-
-
+Problems of ID in the world
+'''''''''''''''''''''''''''
+400k people in Europe without IDs - https://apatride.eu
+Aadhar India - Aadhaar is a verifiable 12-digit identification number issued by UIDAI to the resident of India for free of cost.
 
 Bonding Curves todo
 - https://docs.google.com/document/d/1VNkBjjGhcZUV9CyC0ccWYbqeOoVKT2maqX0rK3yXB20/edit - by Simon 
@@ -253,3 +255,7 @@ Bonding Curves todo
 - Bonding Curves https://medium.com/thoughtchains/on-single-bonding-curves-for-continuous-token-models-a167f5ffef89
 
 .. include:: ./footer.rst
+
+
+Other (study)
+https://identity.foundation/ion/ https://www.w3.org/TR/vc-data-model/
