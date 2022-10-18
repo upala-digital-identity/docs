@@ -18,8 +18,6 @@ Pale Blue Paper
    :maxdepth: 2
 
    whitepaper
-   explosive-bots
-   universe
    state-of-knowledge
    roadmap
 
