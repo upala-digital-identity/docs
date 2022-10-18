@@ -50,6 +50,7 @@ Design philosophy
 =================
 
 - Protect bots rights
+- Right incentives first
 - Everything which is not forbidden is allowed
 - Crypto-economic constrains instead of code constrains
 
